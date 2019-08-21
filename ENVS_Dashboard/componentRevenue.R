@@ -27,14 +27,10 @@ revenueBodyItem <- function( data ) {
                               valueBox( format( trendCoefficient(data,"Revenue"), digits=2, big.mark = ",", scientific=FALSE), 
                                         "Annual Trendline",
                                         icon=icon("chart-line"), color="yellow" ),
-                              p("Revenue was estimated based upon cost per credit hour taking into account changes in tuition rates since 2008.  These values do not take into consideration the taxes levied on tuition by administration, which averages 37% of generated tuition funds returning to Life Sciences (n.b., CES does not operate under a revenue sharing model)."), 
-                              box(
-                                title="Tuition Related Revenue",
-                                status="primary",
-                                width=12,
-                                solidHeader = TRUE,
-                                plotOutput("revenue")
-                              ),
+                              p("Revenue was estimated based upon cost per credit hour taking into account changes in tuition rates since 2008.  The following assumptions are made: "),
+                              HTML("<ul><li>Values <b>do not</b> take into consideration the taxes levied on tuition by the VCU Administration—current estimates average 37% of generated tuition returning to MBU</li><li>All graduate credits are estimated as if taken by graduate students.  In reality, undergraduate taking any 500-level class are charged at the undergraduate rate, <b>not</b> the graduate rate.</li><li>Environmental studies does not operate on a revenue model.</li>,</ul>"),
+                            
+                              
                               box(
                                 title = "Temporal Range",
                                 status = "info",
@@ -50,6 +46,7 @@ revenueBodyItem <- function( data ) {
                                             min(data$Year), max(data$Year),
                                             c(min(data$Year), max(data$Year) ) )
                               ),
+                              
                               box(
                                 title="Course Specifics",
                                 status = "info",
@@ -59,7 +56,18 @@ revenueBodyItem <- function( data ) {
                                              c("All Majors","Undergraduate","Graduate")),
                                 
                                 selectInput( "classRevenue", "ENVS Courses",
-                                             c("All ENVS Classes" = "All", levels(data$Course ) ) )
+                                             c("All ENVS Classes" = "All", sort(unique(data$Course)) ) ),
+                                radioButtons("revenueType", "Revenue Standardization:",
+                                             c("Total" = "total",
+                                               "After Taxes" = "after"))
+                              ), 
+                              
+                              box(
+                                title="Tuition Related Revenue",
+                                status="primary",
+                                width=12,
+                                solidHeader = TRUE,
+                                plotOutput("revenue")
                               )
                             )
                           )
@@ -73,6 +81,10 @@ revenueBodyItem <- function( data ) {
 getRevenueOutput <- function( input, data ) {
   
   ret <- renderPlot({
+    
+    if( input$revenueType == "after") {
+      data$Revenue <- 0.38 * data$Revenue
+    }
     
     # filter on 
     if( input$populationRevenue != "All Majors" ) {

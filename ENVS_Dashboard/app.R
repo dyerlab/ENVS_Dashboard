@@ -61,7 +61,7 @@ ui <- dashboardPage(
                              tags$img(src="ces_logo.png", width="75%", align="center"),
                              tags$p(""),
                              tags$hr(),
-                             tags$p("This dashboard provides up-to-date information on curricula and faculty in the Center for Environmental Studies at Virginia Commonwealth University.")
+                             tags$p("This dashboard provides up-to-date information on curricula and faculty in the Center for Environmental Studies at Virginia Commonwealth University.  ")
                              )
                      )
             ),

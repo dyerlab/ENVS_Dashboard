@@ -18,6 +18,7 @@ teachingBodyItem <- function( data, faculty ) {
   
   merge( faculty, df, by.x="Name",by.y="Instructor") %>%
     filter( Category %in% c("Tenure Track", "Term") )  %>% 
+    arrange( Name ) %>%
     mutate( stdSCH = SCH/Effort) %>%
     droplevels() -> df
   
@@ -36,17 +37,8 @@ teachingBodyItem <- function( data, faculty ) {
                       valueBox( format( mean(df$stdSCH), big.mark=",", scientific=FALSE, digits=2),
                                 "Contact Hours / Teaching Effort",
                                 icon=icon("bullseye"), color="yellow"),
-                     
 
-                      p("Data reported for period of Current Director (2017-Present).  Faculty not represented across this entire time period removed to prevent bias."),
-                      
-                      box(
-                        title="Teaching Loads for Faculty in Environmental Studies",
-                        width=12,
-                        status="primary",
-                        solidHeader=TRUE,
-                        plotOutput("teachingLoadPlot")
-                      ),
+                      p("Data reported for period of Current Director (2017-Present).  Faculty not represented across this entire time period removed to prevent bias.  These data are only for classes taught in ENVS, if a faculty member teaching a course under a different rubric, the contact hours will not be represented here."),
                       
                       box(
                         title="Total Teaching Effort",
@@ -57,15 +49,23 @@ teachingBodyItem <- function( data, faculty ) {
                           width=6,
                           selectInput("teachingPlotType",
                                       "Effort View:",
-                                      c("SCH ~ f(Effort)" = "point",
-                                        "Standardized Effort" = "hist") )  
+                                      c("Standardized Effort" = "hist",
+                                        "SCH ~ f(Effort)" = "point") )  
                         ),
                         column(
                           width=6,
                           selectInput("teachingFacultyGroup",
                                       "Faculty Selection:",
-                                      c("All", as.character(faculty$Name[faculty$Category != "Adjunct"] )))
+                                      c("All", as.character(df$Name) ) )
                         )
+                      ),
+                      
+                      box(
+                        title="Teaching Loads for Faculty in Environmental Studies",
+                        width=12,
+                        status="primary",
+                        solidHeader=TRUE,
+                        plotOutput("teachingLoadPlot")
                       )
                     )
                   )

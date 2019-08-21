@@ -28,14 +28,6 @@ schBodyItem <- function( data )  {
                                         icon=icon("chart-line"), color="yellow" ),
                               
                               box(
-                                title="Contact Hours",
-                                status="primary",
-                                width=12,
-                                solidHeader = TRUE,
-                                plotOutput("sch")
-                              ),
-                              
-                              box(
                                 title = "Temporal Range",
                                 status = "info",
                                 width = 6,
@@ -60,7 +52,15 @@ schBodyItem <- function( data )  {
                                              c("All Majors","Undergraduate","Graduate")),
                                 
                                 selectInput( "classSCH", "ENVS Courses",
-                                             c("All ENVS Classes" = "All", levels(data$Course ) ) )
+                                             c("All ENVS Classes" = "All", sort(unique(data$Course)) ) )
+                              ),
+                              
+                              box(
+                                title="Contact Hours",
+                                status="primary",
+                                width=12,
+                                solidHeader = TRUE,
+                                plotOutput("sch")
                               )
                             )
                           )

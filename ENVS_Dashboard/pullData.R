@@ -1,9 +1,9 @@
 library(dplyr)
 
-pull_data <- function() {
+pull_data <- function( hideSpecialTopics=TRUE ) {
   data <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS-3wFAaGu0NpcB87o6LXvVAN85_6cPzyCPb_w-DqDu8l3rbvg7BISlIqo3fL8CRaSkWKe8IJvcLiKQ/pub?gid=0&single=true&output=csv",
                    header=TRUE, skipNul = TRUE, stringsAsFactors = FALSE)
-  
+
   data %>% 
     mutate( YEAR = floor( TERM/100 ) ) %>% 
     mutate( SEMESTER = factor( ifelse( substr(data$TERM, 5, 6) == "10", "Fall", 
@@ -17,13 +17,14 @@ pull_data <- function() {
                               ifelse(TERM < 201900, 378, 417) ) ) %>%
     mutate( SCH = ACTUAL.ENROLLMENT * MAX.CREDITS ) %>% 
     mutate( TERM = factor( TERM, ordered=TRUE) ) %>% 
-    select( TERM, YEAR, SEMESTER, LEVEL, COURSE, TYPE, MAX.CREDITS, TITLE, 
+    select( TERM, YEAR, SEMESTER, LEVEL, CRN, COURSE, SECT, TYPE, MAX.CREDITS, TITLE, 
             MAX.SIZE, ACTUAL.ENROLLMENT, SCH, TUITION, PRIMARY.INSTRUCTOR.LAST.NAME, SECONDARY.INSTRUCTOR.LAST.NAME )  %>%
     mutate( Revenue = SCH * TUITION) %>% 
     filter( ACTUAL.ENROLLMENT > 0, TITLE != "CANCELLED") ->  data
   
+  
   names(data) <- c("Term","Year", "Semester", "Level", 
-                   "Course", "Type", "Credits",
+                   "CRN", "Course", "Section", "Type", "Credits",
                    "Title","Seats", "Enrollment", 
                    "SCH", "Tuition", "Instructor","Instructor2","Revenue")
   
@@ -35,20 +36,26 @@ pull_data <- function() {
   } else if( month > 5 ) {
     term <- paste( as.numeric(today[1]), 30, sep="" )
   }
-  data$Title <- as.character( data$Title)
-  data$Title[ data$Course %in% c("ENVS291","ENVS391","ENVS491","ENVS591","ENVS691")] <- "SPECIAL TOPICS" 
-  data$Title <- factor( data$Title, ordered=FALSE)
+  
+  if( hideSpecialTopics ) {
+    data$Title <- as.character( data$Title)
+    data$Title[ data$Course %in% c("ENVS291","ENVS391","ENVS491","ENVS591","ENVS691")] <- "SPECIAL TOPICS" 
+    data$Title <- factor( data$Title, ordered=FALSE)  
+  }
+  
   data$Status <- "Final Class Count"
   data$Status[ as.numeric( as.character(data$Term )) > term ] <- "Registered To Date"
-  data$Status <- factor( data$Status, ordered = TRUE, levels = c("Registered To Date","Final Class Count") )
-  
+  data$Status <- factor( data$Status, ordered = TRUE, levels = c("Final Class Count","Registered To Date") )
   
   # fix instructor2 column
   data$Instructor <- as.character( data$Instructor )
   data$Instructor[ nchar(data$Instructor) == 0 ] <- "TBA"
   data$Instructor2 <- as.character( data$Instructor2 )
   data$Instructor2[ nchar(data$Instructor2) == 0] <- NA
-  
+
+  # Make a unique identifier to remove duplicates
+  #data$ID <- paste( data$Term,data$CRN,data$Course,data$Section,data$Instructor, data$Title, sep=".")
+    
   ret <- data[ is.na(data$Instructor2),]
   
   dup <- data[ !is.na(data$Instructor2),]
@@ -56,9 +63,11 @@ pull_data <- function() {
   dup2 <- dup
   dup2$Instructor <- dup2$Instructor2 
   ret <- rbind( ret, dup, dup2 )
+  
   ret %>%
     arrange( Term, Course ) %>% 
-    select( setdiff( names(ret), "Instructor2") ) -> data
+    select( setdiff( names(ret), "Instructor2") ) %>%
+    distinct() -> data
   
   return( data )
 }

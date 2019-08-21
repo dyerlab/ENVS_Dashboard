@@ -11,6 +11,8 @@ seatMenuItem <- menuItem( "Seats",
 
 # The Seats UI
 seatsBodyItem <- function( data ) { 
+  
+  
   ret <- tabItem( tabName = "seats",
                   fluidRow(
                     
@@ -26,14 +28,6 @@ seatsBodyItem <- function( data ) {
                                 icon=icon("calendar"), color="purple"),
                       valueBox( trendCoefficient(data,"Seats"), "Annual Trendline",
                                 icon=icon("chart-line"), color="yellow" ),
-                      
-                      box(
-                        title="Seats Available",
-                        status="primary",
-                        width=12,
-                        solidHeader = TRUE,
-                        plotOutput("seats")
-                      ),
                       
                       box(
                         title = "Temporal Range",
@@ -60,7 +54,15 @@ seatsBodyItem <- function( data ) {
                                      c("All Majors","Undergraduate","Graduate")),
                         
                         selectInput( "class", "ENVS Courses",
-                                     c("All ENVS Classes" = "All", levels(data$Course ) ) )
+                                     c("All ENVS Classes" = "All", sort(unique(data$Course)) ) )
+                      ),
+                      
+                      box(
+                        title="Seats Available",
+                        status="primary",
+                        width=12,
+                        solidHeader = TRUE,
+                        plotOutput("seats")
                       )
                       
                     )
