@@ -15,6 +15,7 @@ classesMenuItem <- menuItem("Summary",
 classesBodyItem <- function( data, faculty ) {
   
   data %>%
+    mutate( Course = factor( Course ) ) %>%
     group_by(Course) %>%
     summarize(Title = paste0(unique(Title), collapse=", "),
               Size = round(mean(Enrollment), digits=0),
