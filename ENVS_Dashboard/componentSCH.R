@@ -107,8 +107,8 @@ getSCHOutput <- function( input , data) {
     data %>%
       filter( Year >= yr_range[1], Year <= yr_range[2] ) %>%
       group_by( Year ) %>%
-      summarize( SCH = sum(SCH), Status=unique(Status)) %>%
-      ggplot( aes(Year, SCH, fill=Status) ) + 
+      summarize( SCH = sum(SCH) ) %>%
+      ggplot( aes(Year, SCH ) ) + 
       geom_bar(stat="identity") + 
       ylab("Student Contact Hours") + 
       xlab("Period") + 

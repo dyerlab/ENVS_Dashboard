@@ -24,7 +24,7 @@ source("componentClasses.R")
 source("componentFaculty.R")
 source("componentTeaching.R")
 
-data <- load("data.rda")
+data <- pull_data()
 faculty <- get_faculty()
 
 ui <- dashboardPage(
