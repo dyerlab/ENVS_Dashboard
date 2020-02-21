@@ -1,0 +1,2867 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.aligncontents
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+  text-align: left;
+  vertical-align: middle;
+}
+.batch
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #3872AC;
+  border-left-width: 2px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 2px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  vertical-align: middle;
+}
+.body
+{
+  background-color: #FFFFFF;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.bodytext
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.cell
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.column
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #3872AC;
+  border-left-width: 2px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 2px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  vertical-align: middle;
+}
+.container
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.contentitem
+{
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 10pt;
+}
+.contentproclabel
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.contentprocname
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.contents
+{
+  background-color: #EEEAC1;
+  color: #000000;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FFFFFF;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.continued
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 3px;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, sans-serif;
+  font-size: 8pt;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0px;
+  padding: 3px;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, sans-serif;
+  font-size: 8pt;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0px;
+  padding: 3px;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 3px;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 3px;
+}
+.datafixedemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 8pt;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0px;
+  padding: 3px;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+}
+.date
+{
+  background-color: #FFFFFF;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+  width: 100%;
+}
+.default
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.document
+{
+}
+a:link {
+color:#275E94
+}
+a:visited {
+color:#275E94
+}
+a:active {
+color:#275E94
+}
+.drilldetaildata
+{
+  background-color: #FFFFFF;
+  color: #34699E;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-weight: normal;
+  padding: 0px;
+}
+.drilldetailhover
+{
+  background-color: #FFFFFF;
+  color: #34699E;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-weight: normal;
+  padding: 0px;
+  text-decoration: underline;
+}
+.errorbanner
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.errorcontent
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.errorcontentfixed
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.extendedpage
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.fatalbanner
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.fatalcontent
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.fatalcontentfixed
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.folderaction
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.footer
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footeremphasis
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footeremphasisfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footerempty
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footerfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footerstrong
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footerstrongfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.frame
+{
+}
+.graph
+{
+  border: 1px solid #3872AC;
+}
+.graphcharts
+{
+  border: 1px solid #3872AC;
+}
+.graphcrumbtrail
+{
+  border: 0px solid #3872AC;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 8pt;
+  font-weight: normal;
+  padding: 5px;
+}
+.header
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.headeremphasis
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.headeremphasisfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.headerempty
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.headerfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.headersandfooters
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.headerstrong
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.headerstrongfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.heading1
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.heading2
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 14pt;
+  font-style: italic;
+  font-weight: bold;
+  padding: 0px;
+}
+.heading3
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.indexaction
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.linecontent
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.list
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list10
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list2
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list3
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list4
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list5
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list6
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list7
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list8
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.list9
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem10
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem2
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem3
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem4
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem5
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem6
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem7
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem8
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.listitem9
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.normaltext
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.note
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.notebanner
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.notecontent
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.notecontentfixed
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.pagebreak
+{
+  height: 1em;
+}
+.pages
+{
+  background-color: #EEEAC1;
+  color: #000000;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FFFFFF;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+  width: 100%;
+}
+.pagesitem
+{
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 10pt;
+}
+.pagesproclabel
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.pagesprocname
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.pagestitle
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.paragraph
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.parskip
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Trebuchet MS', Helvetica, Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px;
+}
+.prepage
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.proctitle
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+.proctitlefixed
+{
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+.rowfooter
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowfooteremphasis
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowfooterempty
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowfooterfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowfooterstrong
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowfooterstrongfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowheader
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowheaderemphasis
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowheaderempty
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowheaderfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowheaderstrong
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.rowheaderstrongfixed
+{
+  background-color: #FAF3D4;
+  border-bottom-width: 1px;
+  border-color: #AAC1D9;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.systemfooter
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter10
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter2
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter3
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter4
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter5
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter6
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter7
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter8
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemfooter9
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+.systemtitle
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle10
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle2
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle3
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle4
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle5
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle6
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle7
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle8
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.systemtitle9
+{
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0px;
+}
+.table
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #3872AC;
+  border-left-width: 2px;
+  border-right-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 2px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  vertical-align: middle;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.usertext
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.warnbanner
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.warncontent
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.warncontentfixed
+{
+  background-color: #FFFFFF;
+  border: 1px solid #3872AC;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, fixed;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  text-align: left;
+  vertical-align: middle;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" summary="Page Layout">
+<tr>
+<td class="c systemtitle" style=" font-weight: bold;">Virginia Commonwealth University</td>
+</tr>
+<tr>
+<td class="c systemtitle2" style=" font-weight: bold;">Registered Students by Minor</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="3" summary="Procedure Print: Data Set WORK.SORTTEMPTABLESORTED">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c m header" scope="col">ACADEMIC PERIOD</th>
+<th class="c m header" scope="col">ID</th>
+<th class="c m header" scope="col">NAME</th>
+<th class="c m header" scope="col">COLLEGE1</th>
+<th class="c m header" scope="col">DEGREE1</th>
+<th class="c m header" scope="col">MAJOR1</th>
+<th class="c m header" scope="col">FIRST CONCENTRATION1</th>
+<th class="c m header" scope="col">FIRST_MINOR1</th>
+<th class="c m header" scope="col">SECOND_MINOR1</th>
+<th class="c m header" scope="col">STUDENT<br/>CLASSIFICATION1</th>
+<th class="c m header" scope="col">COLLEGE2</th>
+<th class="c m header" scope="col">DEGREE2</th>
+<th class="c m header" scope="col">MAJOR2</th>
+<th class="c m header" scope="col">FIRST CONCENTRATION2</th>
+<th class="c m header" scope="col">FIRST_MINOR2</th>
+<th class="c m header" scope="col">SECOND_MINOR2</th>
+<th class="c m header" scope="col">STUDENT<br/>CLASSIFICATION2</th>
+<th class="c m header" scope="col">CURRENT TIME STATUS</th>
+<th class="c m header" scope="col">PERM_STREET_1</th>
+<th class="c m header" scope="col">PERM_STREET_2</th>
+<th class="c m header" scope="col">PERM_CITY</th>
+<th class="c m header" scope="col">PERM_STATE</th>
+<th class="c m header" scope="col">PERM_ZIP</th>
+<th class="c m header" scope="col">EMAIL_PREFERRED_ADDRESS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00668871</td>
+<td class="l data">Boecker, Morgan N.</td>
+<td class="l data">WS</td>
+<td class="l data">BS</td>
+<td class="l data">UBR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">3712B E Stratford Rd</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Virginia Beach</td>
+<td class="l data">VA</td>
+<td class="l data">23455-2928</td>
+<td class="l data">BOECKERMN@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00628977</td>
+<td class="l data">Borkoski, Paulina J.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">SCI</td>
+<td class="l data">HPPS</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">41861 Feldspar Pl</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Aldie</td>
+<td class="l data">VA</td>
+<td class="l data">20105-2902</td>
+<td class="l data">BORKOSKIPJ@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00700760</td>
+<td class="l data">Burke, Emily M.</td>
+<td class="l data">AR</td>
+<td class="l data">BA</td>
+<td class="l data">FDE</td>
+<td class="l data">FM</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">504 Somerset Ave</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Richmond</td>
+<td class="l data">VA</td>
+<td class="l data">23226-2608</td>
+<td class="l data">BURKEEM3@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00689903</td>
+<td class="l data">Byrne, Hannah M.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">3317 Rosewood Ave</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Richmond</td>
+<td class="l data">VA</td>
+<td class="l data">23221-3428</td>
+<td class="l data">BYRNEHM@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00668762</td>
+<td class="l data">Cavaliere, Kelsey R.</td>
+<td class="l data">HS</td>
+<td class="l data">BA</td>
+<td class="l data">POS</td>
+<td class="l data">PSIR</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">3Q</td>
+<td class="l data">8037 Hampton Arbor Cir</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Chesterfield</td>
+<td class="l data">VA</td>
+<td class="l data">23832-1968</td>
+<td class="l data">CAVALIEREKR@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00594963</td>
+<td class="l data">Conolly, Caroline E.</td>
+<td class="l data">ED</td>
+<td class="l data">MT</td>
+<td class="l data">TCH</td>
+<td class="l data">EDEE</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">GM</td>
+<td class="l data">HS</td>
+<td class="l data">BIS</td>
+<td class="l data">LSE</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">FT</td>
+<td class="l data">17296 Kettlebrook Lndg</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Jeffersonton</td>
+<td class="l data">VA</td>
+<td class="l data">22724-1781</td>
+<td class="l data">CONOLLYCE@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00656198</td>
+<td class="l data">Cowley, Christina L.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">561 Mill Landing Rd</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Chesapeake</td>
+<td class="l data">VA</td>
+<td class="l data">23322-8333</td>
+<td class="l data">COWLEYCL@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00737736</td>
+<td class="l data">Craig, Zoe R.</td>
+<td class="l data">HS</td>
+<td class="l data">BA</td>
+<td class="l data">POS</td>
+<td class="l data">PSPA</td>
+<td class="l data">ENS</td>
+<td class="l data">NMA</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">2256 Speckled Rock Ln</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Virginia Beach</td>
+<td class="l data">VA</td>
+<td class="l data">23456-6131</td>
+<td class="l data">CRAIGZR@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00695260</td>
+<td class="l data">Davis, Emma R.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">10904 Warwick Ave</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Fairfax</td>
+<td class="l data">VA</td>
+<td class="l data">22030-3032</td>
+<td class="l data">DAVISER3@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00554350</td>
+<td class="l data">Dipboye, Madison M.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">MAC</td>
+<td class="l data">PB</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">212 Sleepy Hollow Rd</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Richmond</td>
+<td class="l data">VA</td>
+<td class="l data">23229-7126</td>
+<td class="l data">DIPBOYEMM@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00762042</td>
+<td class="l data">Flint, Kelley</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">MAC</td>
+<td class="l data">JR</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">20811 Fenwick Dr</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Ashburn</td>
+<td class="l data">VA</td>
+<td class="l data">20147-2857</td>
+<td class="l data">FLINTK@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00577642</td>
+<td class="l data">Harold, Zachary D.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">MAS</td>
+<td class="l data">AM</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">1416 Valebrook Ln</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Herndon</td>
+<td class="l data">VA</td>
+<td class="l data">20170-2544</td>
+<td class="l data">HAROLDZD@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00746503</td>
+<td class="l data">Hickey, Laura J.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">12 E Main St Apt 7</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Richmond</td>
+<td class="l data">VA</td>
+<td class="l data">23219-2123</td>
+<td class="l data">HICKEYLJ@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00750465</td>
+<td class="l data">Landolt, Alexandra C.</td>
+<td class="l data">HS</td>
+<td class="l data">BA</td>
+<td class="l data">INT</td>
+<td class="l data">LTAM</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">2523 Rambling Rd</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Vienna</td>
+<td class="l data">VA</td>
+<td class="l data">22181-5457</td>
+<td class="l data">LANDOLTAC@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00745499</td>
+<td class="l data">Laxmi, Akansha R.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">3Q</td>
+<td class="l data">11335 Kessler Pl</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Manassas</td>
+<td class="l data">VA</td>
+<td class="l data">20109-7782</td>
+<td class="l data">LAXMIAR@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00746679</td>
+<td class="l data">Lennarz, Julia E.</td>
+<td class="l data">AR</td>
+<td class="l data">BFA</td>
+<td class="l data">PAP</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">2835 Poorhouse Rd</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Goochland</td>
+<td class="l data">VA</td>
+<td class="l data">23063-2616</td>
+<td class="l data">LENNARZJE@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00756678</td>
+<td class="l data">Long, Edward A.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">CHE</td>
+<td class="l data">C5</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">12023 Willowood Dr</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Woodbridge</td>
+<td class="l data">VA</td>
+<td class="l data">22192-1512</td>
+<td class="l data">LONGEA3@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00718424</td>
+<td class="l data">Martin, Megan L.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">201 Farnham Dr</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">North Chesterfield</td>
+<td class="l data">VA</td>
+<td class="l data">23236-4026</td>
+<td class="l data">MARTINML2@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00648433</td>
+<td class="l data">McIntosh, Phillip K.</td>
+<td class="l data">AR</td>
+<td class="l data">BM</td>
+<td class="l data">MUS</td>
+<td class="l data">PEJS</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">10947 Flowerstone St</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Oakton</td>
+<td class="l data">VA</td>
+<td class="l data">22124-1003</td>
+<td class="l data">MCINTOSHPK@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00626082</td>
+<td class="l data">McKenna, Mitchell D.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">CHE</td>
+<td class="l data">C1</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">4015 Harpers Rd</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Mc Kenney</td>
+<td class="l data">VA</td>
+<td class="l data">23872-3336</td>
+<td class="l data">MCKENNAMD@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00668473</td>
+<td class="l data">Minor, William L.</td>
+<td class="l data">HS</td>
+<td class="l data">BA</td>
+<td class="l data">ENG</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">1006 N Harrison St</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Richmond</td>
+<td class="l data">VA</td>
+<td class="l data">23220-2228</td>
+<td class="l data">MINORWL@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00628370</td>
+<td class="l data">Negasi, Elaine O.</td>
+<td class="l data">WS</td>
+<td class="l data">BS</td>
+<td class="l data">UBR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">404 N Oxford St Apt 3</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Arlington</td>
+<td class="l data">VA</td>
+<td class="l data">22203-3445</td>
+<td class="l data">NEGASIEO@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00724670</td>
+<td class="l data">O&#39;Callaghan, Pearse M.</td>
+<td class="l data">HS</td>
+<td class="l data">BA</td>
+<td class="l data">INT</td>
+<td class="l data">ISJS</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">2105 Welbeck Ln</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Virginia Beach</td>
+<td class="l data">VA</td>
+<td class="l data">23456-6987</td>
+<td class="l data">OCALLAGHANPM@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00744608</td>
+<td class="l data">Padgett, Sarah A.</td>
+<td class="l data">WS</td>
+<td class="l data">BS</td>
+<td class="l data">UBR</td>
+<td class="l data">NONE</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">20354 Plainfield St</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Ashburn</td>
+<td class="l data">VA</td>
+<td class="l data">20147-3627</td>
+<td class="l data">PADGETTSA@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00747631</td>
+<td class="l data">Price, Kerry A.</td>
+<td class="l data">WS</td>
+<td class="l data">BS</td>
+<td class="l data">CRJ</td>
+<td class="l data">JU</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">10217 Delray Rd</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Glen Allen</td>
+<td class="l data">VA</td>
+<td class="l data">23060-3016</td>
+<td class="l data">PRICEKA3@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00656143</td>
+<td class="l data">Robinson, Joseph C.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">CHE</td>
+<td class="l data">ENS</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">3Q</td>
+<td class="l data">2120 Silentree Dr</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Vienna</td>
+<td class="l data">VA</td>
+<td class="l data">22182-5169</td>
+<td class="l data">ROBINSONJC7@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00660353</td>
+<td class="l data">Rostan-Zimmer, Carolina T.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">8108 Viola St</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Springfield</td>
+<td class="l data">VA</td>
+<td class="l data">22152-3626</td>
+<td class="l data">ROSTANZIMMCT@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00704448</td>
+<td class="l data">Rothey, Julia</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">MAC</td>
+<td class="l data">JRBC</td>
+<td class="l data">ENS</td>
+<td class="l data">SPA</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">2686 Mattox Creek Dr</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Oakton</td>
+<td class="l data">VA</td>
+<td class="l data">22124-1124</td>
+<td class="l data">ROTHEYJ@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00599104</td>
+<td class="l data">Sands, Claire E.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">ANT</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">3Q</td>
+<td class="l data">11303 S Shore Rd</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Reston</td>
+<td class="l data">VA</td>
+<td class="l data">20190-4441</td>
+<td class="l data">SANDSCE@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00669468</td>
+<td class="l data">Tatelman, Carina L.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">TATELMANCL@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00483595</td>
+<td class="l data">Turner, Jordan R.</td>
+<td class="l data">WS</td>
+<td class="l data">BS</td>
+<td class="l data">UBR</td>
+<td class="l data">URPP</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">JR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">3413 Post Mill Pl</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Midlothian</td>
+<td class="l data">VA</td>
+<td class="l data">23113-3970</td>
+<td class="l data">TURNERJR3@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00760185</td>
+<td class="l data">Warshawsky, Stephanie J.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">BIO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">WARSHAWSKYSJ2@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00735160</td>
+<td class="l data">Whibley, Matthew B.</td>
+<td class="l data">HS</td>
+<td class="l data">BS</td>
+<td class="l data">SOC</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">3Q</td>
+<td class="l data">901 Catherine St</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Richmond</td>
+<td class="l data">VA</td>
+<td class="l data">23220-3107</td>
+<td class="l data">WHIBLEYMB@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00748701</td>
+<td class="l data">Wiggan, Kaylyn R.</td>
+<td class="l data">AR</td>
+<td class="l data">BFA</td>
+<td class="l data">CMS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SO</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">200 Mooregate Ct</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Chesapeake</td>
+<td class="l data">VA</td>
+<td class="l data">23322-8738</td>
+<td class="l data">WIGGANKR@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l data">201710</td>
+<td class="l data">V00659919</td>
+<td class="l data">Wilson, Madison E.</td>
+<td class="l data">WS</td>
+<td class="l data">BS</td>
+<td class="l data">UBR</td>
+<td class="l data">URPP</td>
+<td class="l data">ENS</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">SR</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">FT</td>
+<td class="l data">1890 Bentivar Dr</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">Charlottesville</td>
+<td class="l data">VA</td>
+<td class="l data">22911-8229</td>
+<td class="l data">WILSONME2@VCU.EDU</td>
+</tr>
+<tr>
+<td class="l m linecontent" colspan="24">N = 35</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" summary="Page Layout">
+<tr>
+<td class="c systemfooter" style=" font-weight: bold;">31JAN2020 at  9:59 AM</td>
+</tr>
+</table><br>
+</div>
+</body>
+</html>

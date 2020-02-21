@@ -1,0 +1,575 @@
+﻿ACADEMIC PERIOD,ID,NAME,COLLEGE1,DEGREE1,MAJOR1,FIRST CONCENTRATION1,FIRST_MINOR1,SECOND_MINOR1,CLASS,COLLEGE2,DEGREE2,MAJOR2,FIRST CONCENTRATION2,FIRST_MINOR2,SECOND_MINOR2,STUDENT,CURRENT TIME STATUS
+201620,V00628977,"Borkoski, Paulina J.",HS,BS,SCI,HPPS,ENS,,SR,,,,,,,,FT
+201620,V00700760,"Burke, Emily M.",AR,BA,FDE,FM,ENS,,JR,,,,,,,,FT
+201620,V00689903,"Byrne, Hannah M.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201620,V00594963,"Conolly, Caroline E.",HS,BIS,LSE,,ENS,,SR,,,,,,,,FT
+201620,V00656198,"Cowley, Christina L.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201620,V00505213,"Cox, Bobby D.",HS,BS,PHY,,ENS,,SR,,,,,,,,FT
+201620,V00695260,"Davis, Emma R.",HS,BS,BIO,,ENS,,JR,,,,,,,,FT
+201620,V00571813,"Diallo, Emma A.",HS,BS,MAS,ST,ENS,,SR,,,,,,,,FT
+201620,V00554350,"Dipboye, Madison M.",HS,BS,MAC,PB,ENS,,JR,,,,,,,,FT
+201620,V00746503,"Hickey, Laura J.",HS,BS,BIO,,ENS,,JR,,,,,,,,FT
+201620,V00605673,"Huddle, Hannah M.",AR,BFA,COM,MI,BIO,ENS,SR,,,,,,,,FT
+201620,V00750465,"Landolt, Alexandra C.",HS,BA,INT,LTAM,ENS,,SO,,,,,,,,FT
+201620,V00431090,"Mason, Elizabeth",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201620,V00648433,"McIntosh, Phillip K.",AR,BM,MUS,PEJS,CRW,ENS,JR,,,,,,,,FT
+201620,V00724000,"Merchant, Dimitrial A.",HS,BS,BIO,,ENS,,SR,LF,BS,ENS,,,,SR,FT
+201620,V00668473,"Minor, William L.",HS,BA,ENG,,ENS,,SR,,,,,,,,FT
+201620,V00628370,"Negasi, Elaine O.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201620,V00656143,"Robinson, Joseph C.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,FT
+201620,V00704448,"Rothey, Julia",HS,BS,MAC,JRBC,ENS,SPA,SR,,,,,,,,FT
+201620,V00525529,"Sanderlin, Sara E.",HS,BS,BIO,,ENS,,SR,,,,,,,,HT
+201620,V00599104,"Sands, Claire E.",HS,BS,ANT,,ENS,,SR,,,,,,,,FT
+201620,V00483595,"Turner, Jordan R.",WS,BS,UBR,URPP,PMA,ENS,JR,,,,,,,,FT
+201620,V00500656,"Vice, Karyn D.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201620,V00625489,"Whitlow, Lara S.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,FT
+201620,V00659919,"Wilson, Madison E.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201630,V00668871,"Boecker, Morgan N.",WS,BS,UBR,,ENS,,JR,,,,,,,,LH
+201630,V00689903,"Byrne, Hannah M.",HS,BS,BIO,,ENS,,SR,,,,,,,,HT
+201630,V00554350,"Dipboye, Madison M.",HS,BS,MAC,PB,ENS,,SR,,,,,,,,HT
+201630,V00762042,"Flint, Kelley",HS,BS,MAC,JR,ENS,,SR,,,,,,,,LH
+201630,V00756678,"Long, Edward A.",HS,BS,CHE,C5,ENS,,SO,,,,,,,,3Q
+201630,V00599104,"Sands, Claire E.",HS,BS,ANT,,ENS,,SR,,,,,,,,LH
+201630,V00669468,"Tatelman, Carina L.",HS,BS,BIO,,ENS,,JR,,,,,,,,LH
+201630,V00483595,"Turner, Jordan R.",WS,BS,UBR,URPP,PMA,ENS,JR,,,,,,,,HT
+201630,V00500656,"Vice, Karyn D.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,HT
+201630,V00760185,"Warshawsky, Stephanie J.",HS,BS,BIO,,ENS,,SR,,,,,,,,LH
+201630,V00625489,"Whitlow, Lara S.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,LH
+201630,V00659919,"Wilson, Madison E.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,LH
+201710,V00668871,"Boecker, Morgan N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201710,V00628977,"Borkoski, Paulina J.",HS,BS,SCI,HPPS,ENS,,SR,,,,,,,,FT
+201710,V00700760,"Burke, Emily M.",AR,BA,FDE,FM,ENS,,JR,,,,,,,,FT
+201710,V00689903,"Byrne, Hannah M.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201710,V00668762,"Cavaliere, Kelsey R.",HS,BA,POS,PSIR,ENS,,JR,,,,,,,,3Q
+201710,V00594963,"Conolly, Caroline E.",ED,MT,TCH,EDEE,,,GM,HS,BIS,LSE,,ENS,,SR,FT
+201710,V00656198,"Cowley, Christina L.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201710,V00737736,"Craig, Zoe R.",HS,BA,POS,PSPA,ENS,NMA,JR,,,,,,,,FT
+201710,V00695260,"Davis, Emma R.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201710,V00554350,"Dipboye, Madison M.",HS,BS,MAC,PB,ENS,,SR,,,,,,,,FT
+201710,V00762042,"Flint, Kelley",HS,BS,MAC,JR,ENS,,SR,,,,,,,,FT
+201710,V00577642,"Harold, Zachary D.",HS,BS,MAS,AM,ENS,,SR,,,,,,,,FT
+201710,V00746503,"Hickey, Laura J.",HS,BS,BIO,,ENS,,JR,,,,,,,,FT
+201710,V00750465,"Landolt, Alexandra C.",HS,BA,INT,LTAM,ENS,,SO,,,,,,,,FT
+201710,V00745499,"Laxmi, Akansha R.",HS,BS,BIO,,ENS,,SO,,,,,,,,3Q
+201710,V00746679,"Lennarz, Julia E.",AR,BFA,PAP,,ENS,,JR,,,,,,,,FT
+201710,V00756678,"Long, Edward A.",HS,BS,CHE,C5,ENS,,JR,,,,,,,,FT
+201710,V00718424,"Martin, Megan L.",HS,BS,BIO,,ENS,,SO,,,,,,,,FT
+201710,V00648433,"McIntosh, Phillip K.",AR,BM,MUS,PEJS,ENS,,JR,,,,,,,,FT
+201710,V00626082,"McKenna, Mitchell D.",HS,BS,CHE,C1,ENS,,SR,,,,,,,,FT
+201710,V00668473,"Minor, William L.",HS,BA,ENG,,ENS,,SR,,,,,,,,FT
+201710,V00628370,"Negasi, Elaine O.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201710,V00724670,"O'Callaghan, Pearse M.",HS,BA,INT,ISJS,ENS,,JR,,,,,,,,FT
+201710,V00744608,"Padgett, Sarah A.",WS,BS,UBR,NONE,ENS,,JR,,,,,,,,FT
+201710,V00747631,"Price, Kerry A.",WS,BS,CRJ,JU,ENS,,JR,,,,,,,,FT
+201710,V00656143,"Robinson, Joseph C.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,3Q
+201710,V00660353,"Rostan-Zimmer, Carolina T.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201710,V00704448,"Rothey, Julia",HS,BS,MAC,JRBC,ENS,SPA,SR,,,,,,,,FT
+201710,V00599104,"Sands, Claire E.",HS,BS,ANT,,ENS,,SR,,,,,,,,3Q
+201710,V00669468,"Tatelman, Carina L.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201710,V00483595,"Turner, Jordan R.",WS,BS,UBR,URPP,ENS,,JR,,,,,,,,FT
+201710,V00760185,"Warshawsky, Stephanie J.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201710,V00735160,"Whibley, Matthew B.",HS,BS,SOC,,ENS,,SR,,,,,,,,3Q
+201710,V00748701,"Wiggan, Kaylyn R.",AR,BFA,CMS,,ENS,,SO,,,,,,,,FT
+201710,V00659919,"Wilson, Madison E.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201720,V00777400,"Ailstock, Tanner M.",WS,BS,UBR,RGAD,ENS,,JR,,,,,,,,FT
+201720,V00668871,"Boecker, Morgan N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201720,V00628977,"Borkoski, Paulina J.",HS,BS,SCI,HPPS,ENS,,SR,,,,,,,,3Q
+201720,V00700760,"Burke, Emily M.",AR,BA,FDE,FM,ENS,,JR,,,,,,,,FT
+201720,V00689903,"Byrne, Hannah M.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201720,V00668762,"Cavaliere, Kelsey R.",HS,BA,POS,PSIR,ENS,,JR,,,,,,,,3Q
+201720,V00594963,"Conolly, Caroline E.",ED,MT,TCH,EDEE,,,GM,HS,BIS,LSE,,ENS,,SR,FT
+201720,V00656198,"Cowley, Christina L.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201720,V00737736,"Craig, Zoe R.",HS,BA,POS,PSPA,ENS,NMA,SR,,,,,,,,FT
+201720,V00695260,"Davis, Emma R.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201720,V00678855,"Endisha, Khalil A.",HS,BA,POS,PSPG,ENS,,SR,,,,,,,,FT
+201720,V00762042,"Flint, Kelley L.",HS,BS,MAC,JRPO,ENS,,SR,,,,,,,,FT
+201720,V00521207,"Green, Anthony L.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201720,V00577642,"Harold, Zachary D.",HS,BS,MAS,AM,ENS,,SR,,,,,,,,FT
+201720,V00746503,"Hickey, Laura J.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201720,V00735296,"Hodges, Abigayle",HS,BA,POS,PSPG,ENS,,SO,,,,,,,,FT
+201720,V00801710,"Kane, Alex M.",HS,BA,HIS,,ENS,,JR,,,,,,,,HT
+201720,V00760085,"Kent, Brenna H.",LF,BS,BNF,BG,ENS,,JR,,,,,,,,FT
+201720,V00753144,"Keoprasert, Timothy N.",HS,BS,BIO,,ENS,,JR,,,,,,,,FT
+201720,V00801070,"Khan, Mehreen H.",BU,BS,BUS,SCMA,ENS,,SR,,,,,,,,FT
+201720,V00753817,"Kristin, Grace E.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201720,V00672919,"Kuhn, Madelene J.",HS,BA,POS,PSIR,ENS,,SR,,,,,,,,FT
+201720,V00610366,"Lam, Taylor J.",UN,BIS,INS,,ENS,GBU,SR,,,,,,,,FT
+201720,V00750465,"Landolt, Alexandra C.",HS,BA,INT,LTAM,ENS,,JR,,,,,,,,FT
+201720,V00670821,"Lavalle, Paula",HS,BS,ANT,,ENS,,JR,,,,,,,,FT
+201720,V00746679,"Lennarz, Julia E.",AR,BFA,PAP,,ENS,,SR,,,,,,,,FT
+201720,V00756678,"Long, Edward A.",HS,BS,CHE,C5,ENS,,JR,,,,,,,,FT
+201720,V00718424,"Martin, Megan L.",HS,BS,BIO,,ENS,,JR,,,,,,,,FT
+201720,V00648433,"McIntosh, Phillip K.",AR,BA,MUS,,ENS,,SR,,,,,,,,FT
+201720,V00626082,"McKenna, Mitchell D.",HS,BS,CHE,C4,ENS,,SR,,,,,,,,FT
+201720,V00751222,"Metzel, Sarah L.",HS,BA,POS,PSIR,FRE,ENS,JR,,,,,,,,FT
+201720,V00668473,"Minor, William L.",HS,BA,ENG,,ENS,,SR,,,,,,,,FT
+201720,V00690383,"Morrison, Amanda C.",AR,BFA,KII,,ENS,,JR,,,,,,,,FT
+201720,V00706316,"Nelson, Megan N.",HS,BS,PSY,,ENS,,SR,,,,,,,,FT
+201720,V00724670,"O'Callaghan, Pearse M.",HS,BA,INT,ISJS,ENS,,JR,,,,,,,,FT
+201720,V00744608,"Padgett, Sarah A.",WS,BS,UBR,NONE,ENS,,JR,,,,,,,,FT
+201720,V00540785,"Plumley, William W.",HS,BS,SCI,PZ,ENS,,SR,,,,,,,,HT
+201720,V00747631,"Price, Kerry A.",WS,BS,CRJ,JU,ENS,,JR,,,,,,,,FT
+201720,V00466101,"Quinonez, Alejandra N.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201720,V00656143,"Robinson, Joseph C.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,3Q
+201720,V00660353,"Rostan-Zimmer, Carolina T.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201720,V00704448,"Rothey, Julia",HS,BS,MAC,JRBC,ENS,SPA,SR,,,,,,,,FT
+201720,V00736413,"Ruiz-Allen, Monica A.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,FT
+201720,V00599104,"Sands, Claire E.",HS,BS,ANT,,ENS,,SR,,,,,,,,3Q
+201720,V00558755,"Sasser, Elizabeth L.",HS,BS,ECO,,ENS,,JR,,,,,,,,FT
+201720,V00781332,"Shah, Ria K.",LF,BS,BNF,BG,ENS,,SO,,,,,,,,FT
+201720,V00669468,"Tatelman, Carina L.",HS,BS,BIO,,ENS,,SR,,,,,,,,3Q
+201720,V00483595,"Turner, Jordan R.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201720,V00760185,"Warshawsky, Stephanie J.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201720,V00669601,"Waters, Scott C.",HS,N/A,UHS,,HRM,ENS,JR,,,,,,,,3Q
+201720,V00735160,"Whibley, Matthew B.",HS,BS,SOC,,ENS,,SR,,,,,,,,FT
+201720,V00715648,"Whittington, Brittney M.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201720,V00748701,"Wiggan, Kaylyn R.",AR,BFA,CMS,,ENS,,JR,,,,,,,,FT
+201720,V00659919,"Wilson, Madison E.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,3Q
+201720,V00750127,"Yannutz, Anne",AR,BA,FDE,FM,ENS,,JR,,,,,,,,FT
+201720,V00568429,"Zechini, Liza G.",SW,BSW,SLW,,ENS,,SR,,,,,,,,FT
+201730,V00777400,"Ailstock, Tanner M.",WS,BS,UBR,RGAD,ENS,,SR,,,,,,,,HT
+201730,V00668871,"Boecker, Morgan N.",WS,BS,UBR,,ENS,,SR,,,,,,,,LH
+201730,V00700760,"Burke, Emily M.",AR,BA,FDE,FM,ENS,,SR,,,,,,,,LH
+201730,V00668183,"Cline, Caitlin M.",UN,BIS,INS,,BIO,ENS,JR,,,,,,,,3Q
+201730,V00577642,"Harold, Zachary D.",HS,BS,MAS,AM,ENS,,SR,,,,,,,,0
+201730,V00735296,"Hodges, Abigayle",HS,BA,POS,PSPG,ENS,,SO,,,,,,,,HT
+201730,V00801070,"Khan, Mehreen H.",BU,BS,BUS,SCMA,ENS,,SR,,,,,,,,HT
+201730,V00753817,"Kristin, Grace E.",WS,BS,UBR,,ENS,,JR,,,,,,,,LH
+201730,V00610366,"Lam, Taylor J.",UN,BIS,INS,,ENS,GBU,SR,,,,,,,,3Q
+201730,V00670821,"Lavalle, Paula",HS,BS,ANT,,ENS,,JR,,,,,,,,LH
+201730,V00668473,"Minor, William L.",HS,BA,ENG,,ENS,,SR,,,,,,,,LH
+201730,V00690383,"Morrison, Amanda C.",AR,BFA,KII,,ENS,,JR,,,,,,,,LH
+201730,V00706316,"Nelson, Megan N.",HS,BS,PSY,,ENS,,SR,,,,,,,,LH
+201730,V00747631,"Price, Kerry A.",WS,BS,CRJ,JU,ENS,,JR,,,,,,,,HT
+201730,V00466101,"Quinonez, Alejandra N.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201730,V00736413,"Ruiz-Allen, Monica A.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,HT
+201730,V00599104,"Sands, Claire E.",HS,BS,ANT,,ENS,,SR,,,,,,,,LH
+201730,V00781332,"Shah, Ria K.",LF,BS,BNF,BG,ENS,,SO,,,,,,,,LH
+201730,V00745350,"Shields, Matilyn C.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,HT
+201730,V00746679,"Stewart, Julia E.",AR,BFA,PAP,,ENS,,SR,,,,,,,,HT
+201730,V00669468,"Tatelman, Carina L.",HS,BS,BIO,,ENS,,SR,,,,,,,,LH
+201730,V00483595,"Turner, Jordan R.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201730,V00669601,"Waters, Scott C.",HS,N/A,UHS,,HRM,ENS,JR,,,,,,,,LH
+201730,V00715648,"Whittington, Brittney M.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,LH
+201810,V00777400,"Ailstock, Tanner M.",WS,BS,UBR,RGAD,ENS,,SR,,,,,,,,FT
+201810,V00668871,"Boecker, Morgan N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201810,V00747475,"Boon, Shannon M.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201810,V00396254,"Bradford, Sheryl D.",HS,BS,BIO,,ENS,,SR,,,,,,,,3Q
+201810,V00745554,"Breiner, Kevin R.",HS,BA,POS,PSPG,MUS,ENS,SR,,,,,,,,FT
+201810,V00700760,"Burke, Emily M.",AR,BA,FDE,FM,ENS,,SR,,,,,,,,FT
+201810,V00689903,"Byrne, Hannah M.",HS,BS,BIO,,ENS,,SR,,,,,,,,HT
+201810,V00594963,"Conolly, Caroline E.",ED,MT,TCH,EDEE,,,GM,HS,BIS,LSE,,ENS,,SR,FT
+201810,V00737736,"Craig, Zoe R.",HS,BA,POS,PSPA,ENS,NMA,SR,,,,,,,,FT
+201810,V00695260,"Davis, Emma R.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201810,V00787333,"Dendtler, Allison K.",HS,BA,POS,PSIR,ENS,,SO,,,,,,,,FT
+201810,V00678855,"Endisha, Khalil A.",HS,BA,POS,PSPG,ENS,,SR,,,,,,,,FT
+201810,V00762042,"Flint, Kelley L.",HS,BS,MAC,JRPO,ENS,,SR,,,,,,,,FT
+201810,V00521207,"Green, Anthony L.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201810,V00577642,"Harold, Zachary D.",HS,BS,MAS,AM,ENS,,SR,,,,,,,,3Q
+201810,V00746503,"Hickey, Laura J.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201810,V00738048,"Holcombe, Katherine",HS,BS,MAC,AGCR,ENS,,SR,,,,,,,,FT
+201810,V00761880,"Kenny, Caitlin L.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201810,V00760085,"Kent, Brenna H.",LF,BS,BNF,BG,ENS,,SR,,,,,,,,FT
+201810,V00753144,"Keoprasert, Timothy N.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201810,V00801070,"Khan, Mehreen H.",BU,BS,BUS,SCMA,ENS,,SR,,,,,,,,FT
+201810,V00672919,"Kuhn, Madelene J.",HS,BA,POS,PSIR,ENS,,SR,,,,,,,,FT
+201810,V00750465,"Landolt, Alexandra C.",HS,BA,INT,ISJS,ENS,,JR,,,,,,,,FT
+201810,V00670821,"Lavalle, Paula",HS,BS,ANT,,ENS,,SR,,,,,,,,FT
+201810,V00756678,"Long, Edward A.",HS,BS,CHE,C5,ENS,MAT,SR,,,,,,,,FT
+201810,V00718424,"Martin, Megan L.",HS,BS,BIO,,ENS,PHI,JR,,,,,,,,FT
+201810,V00800121,"McGrath, Christina A.",HS,BS,ANT,,BIO,ENS,SR,,,,,,,,FT
+201810,V00648433,"McIntosh, Phillip K.",AR,BA,MUS,,ENS,,SR,,,,,,,,3Q
+201810,V00751222,"Metzel, Sarah L.",HS,BA,POS,PSIR,FRE,ENS,JR,,,,,,,,FT
+201810,V00690383,"Morrison, Amanda C.",AR,BFA,KII,,ENS,,SR,,,,,,,,FT
+201810,V00236487,"Mullarney, Sarah A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201810,V00797000,"Neels, Peter A.",HS,BA,HIS,,ENS,,SR,,,,,,,,FT
+201810,V00724670,"O'Callaghan, Pearse M.",HS,BA,INT,ISJS,ENS,,SR,,,,,,,,FT
+201810,V00744608,"Padgett, Sarah A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201810,V00540785,"Plumley, William W.",HS,BS,SCI,PZ,ENS,,SR,,,,,,,,HT
+201810,V00747631,"Price, Kerry A.",WS,BS,CRJ,JU,ENS,,SR,,,,,,,,FT
+201810,V00779301,"Pring, Seylar",AR,BFA,IDE,,ENS,,JR,,,,,,,,FT
+201810,V00800073,"Radden, Chane'l N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201810,V00660353,"Rostan-Zimmer, Carolina T.",HS,BS,BIO,,ENS,,SR,,,,,,,,LH
+201810,V00704448,"Rothey, Julia",HS,BS,MAC,JRBC,ENS,SPA,SR,,,,,,,,FT
+201810,V00736413,"Ruiz-Allen, Monica A.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,FT
+201810,V00781332,"Shah, Ria K.",LF,BS,BNF,BG,ENS,,JR,,,,,,,,FT
+201810,V00608911,"Shell, Graham A.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201810,V00745350,"Shields, Matilyn C.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,FT
+201810,V00746679,"Stewart, Julia E.",AR,BFA,PAP,,ENS,,SR,,,,,,,,FT
+201810,V00715503,"Sweeney, Sarah S.",HS,BA,POS,PSIR,ECO,ENS,SR,,,,,,,,FT
+201810,V00669468,"Tatelman, Carina L.",HS,BS,BIO,,ENS,,SR,,,,,,,,HT
+201810,V00458277,"Toenniessen, John R.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201810,V00725594,"Tredway, Amanda L.",WS,BS,CRJ,CI,HSP,ENS,JR,,,,,,,,FT
+201810,V00483595,"Turner, Jordan R.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201810,V00764813,"Wade, Selena L.",HS,BS,SOC,,PSY,ENS,SO,,,,,,,,FT
+201810,V00760185,"Warshawsky, Stephanie J.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201810,V00746915,"Weisenborn, Tessa M.",AR,BFA,COM,,ENS,,JR,HS,BA,FRL,FR,,,JR,FT
+201810,V00715648,"Whittington, Brittney M.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201810,V00748701,"Wiggan, Kaylyn R.",AR,BFA,CMS,,ENS,,JR,,,,,,,,FT
+201810,V00750127,"Yannutz, Anne",AR,BA,FDE,FM,ENS,,JR,,,,,,,,FT
+201810,V00568429,"Zechini, Liza G.",SW,BSW,SLW,,ENS,,SR,,,,,,,,FT
+201820,V00745508,"Adkins, Savannah L.",HS,BA,ENG,,ENS,,SR,,,,,,,,FT
+201820,V00777400,"Ailstock, Tanner M.",WS,BS,UBR,RGAD,ENS,,SR,,,,,,,,FT
+201820,V00729240,"Baxter, Samuel P.",HS,N/A,UHS,,ENS,,JR,,,,,,,,FT
+201820,V00747475,"Boon, Shannon M.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201820,V00396254,"Bradford, Sheryl D.",HS,BS,BIO,,ENS,,SR,,,,,,,,3Q
+201820,V00745554,"Breiner, Kevin R.",HS,BA,POS,PSPG,MUS,ENS,SR,,,,,,,,FT
+201820,V00700760,"Burke, Emily M.",AR,BA,FDE,FM,ENS,,SR,,,,,,,,3Q
+201820,V00689903,"Byrne, Hannah M.",HS,BS,BIO,,ENS,,SR,,,,,,,,3Q
+201820,V00742202,"Canovas, Isabella C.",WS,BS,UBR,,ENS,,SO,,,,,,,,FT
+201820,V00825780,"Carter, Cali S.",HS,BA,INT,ISJS,ENS,,JR,,,,,,,,FT
+201820,V00835327,"Carter, Rebecca P.",HS,BA,POS,PSCV,ENS,,SO,,,,,,,,FT
+201820,V00737736,"Craig, Zoe R.",HS,BA,POS,PSPA,ENS,NMA,SR,,,,,,,,FT
+201820,V00758928,"Crossman, Kelsie J.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201820,V00695260,"Davis, Emma R.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201820,V00787333,"Dendtler, Allison K.",HS,BA,POS,PSIR,ENS,,JR,,,,,,,,FT
+201820,V00762042,"Flint, Kelley L.",HS,BS,MAC,JRPO,ENS,,SR,,,,,,,,FT
+201820,V00843131,"Furrow, Kayla R.",HS,BS,PSY,,ENS,,SR,,,,,,,,FT
+201820,V00711490,"Gagarin, Ernesto P.",HS,BS,BIO,,ANT,ENS,SR,,,,,,,,FT
+201820,V00521207,"Green, Anthony L.",WS,BS,UBR,,ENS,,SR,,,,,,,,LH
+201820,V00740651,"Hess, Drew M.",EG,BS,CLE,CLEC,ENS,,SR,,,,,,,,FT
+201820,V00738048,"Holcombe, Katherine",HS,BS,MAC,AGCR,ENS,SOC,SR,,,,,,,,FT
+201820,V00761880,"Kenny, Caitlin L.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201820,V00760085,"Kent, Brenna H.",LF,BS,BNF,BG,ENS,,SR,,,,,,,,FT
+201820,V00753144,"Keoprasert, Timothy N.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201820,V00801070,"Khan, Mehreen H.",BU,BS,BUS,SCMA,ENS,,SR,,,,,,,,FT
+201820,V00749811,"Kolb, Jordan",UN,BIS,INS,,POS,ENS,JR,,,,,,,,FT
+201820,V00750465,"Landolt, Alexandra C.",HS,BA,INT,ISJS,ENS,RST,SR,,,,,,,,FT
+201820,V00670821,"Lavalle, Paula",HS,BS,ANT,,ENS,,SR,,,,,,,,HT
+201820,V00756678,"Long, Edward A.",HS,BS,CHE,C5,ENS,MAT,SR,,,,,,,,FT
+201820,V00800121,"McGrath, Christina A.",HS,BS,ANT,,BIO,ENS,SR,,,,,,,,FT
+201820,V00648433,"McIntosh, Phillip K.",AR,BA,MUS,,ENS,,SR,,,,,,,,3Q
+201820,V00751222,"Metzel, Sarah L.",HS,BA,POS,PSIR,FRE,ENS,SR,,,,,,,,FT
+201820,V00690383,"Morrison, Amanda C.",AR,BFA,KII,,ENS,,SR,,,,,,,,FT
+201820,V00236487,"Mullarney, Sarah A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201820,V00797000,"Neels, Peter A.",HS,BA,HIS,,ENS,,SR,,,,,,,,HT
+201820,V00724670,"O'Callaghan, Pearse M.",HS,BA,INT,ISJS,ENS,,SR,,,,,,,,FT
+201820,V00744608,"Padgett, Sarah A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201820,V00747631,"Price, Kerry A.",WS,BS,CRJ,JU,ENS,,SR,,,,,,,,FT
+201820,V00779301,"Pring, Seylar",AR,BFA,IDE,,ENS,,JR,,,,,,,,FT
+201820,V00800073,"Radden, Chane'l N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201820,V00660353,"Rostan-Zimmer, Carolina T.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,LH
+201820,V00704448,"Rothey, Julia",HS,BS,MAC,JRBC,ENS,SPA,SR,,,,,,,,FT
+201820,V00781332,"Shah, Ria K.",LF,BS,BNF,BG,ENS,,JR,,,,,,,,FT
+201820,V00608911,"Shell, Graham A.",WS,BS,UBR,URPP,ENS,,SR,,,,,,,,FT
+201820,V00745350,"Shields, Matilyn C.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,FT
+201820,V00792852,"Spalding, Reid A.",EG,BS,MCE,,ENS,,JR,,,,,,,,FT
+201820,V00746679,"Stewart, Julia E.",AR,BFA,PAP,,ENS,,SR,,,,,,,,FT
+201820,V00715503,"Sweeney, Sarah S.",HS,BA,POS,PSIR,ECO,ENS,SR,,,,,,,,FT
+201820,V00669468,"Tatelman, Carina L.",HS,BS,BIO,,ENS,,SR,,,,,,,,HT
+201820,V00458277,"Toenniessen, John R.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201820,V00764813,"Wade, Selena L.",HS,BS,SOC,,PSY,ENS,JR,,,,,,,,FT
+201820,V00746915,"Weisenborn, Tessa M.",AR,BFA,COM,,ENS,,SR,HS,BA,FRL,FR,,,SR,FT
+201820,V00715648,"Whittington, Brittney M.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+201820,V00748701,"Wiggan, Kaylyn R.",AR,BFA,CMS,,ARH,ENS,SR,,,,,,,,FT
+201820,V00750127,"Yannutz, Anne",AR,BA,FDE,FM,ENS,,SR,,,,,,,,FT
+201830,V00792614,"Conklin, Mary M.",AR,BA,CIN,,ENS,,JR,,,,,,,,FT
+201830,V00821386,"Connor, Anna M.",WS,BS,UBR,,ENS,HIS,JR,HS,BA,POS,PSIR,,,JR,HT
+201830,V00710741,"Kessler, Diana J.",HS,BA,POS,PSPA,ENS,,JR,,,,,,,,HT
+201830,V00750465,"Landolt, Alexandra C.",HS,BA,INT,ISJS,ENS,RST,SR,,,,,,,,3Q
+201830,V00670821,"Lavalle, Paula",HS,BS,ANT,,ENS,,SR,,,,,,,,LH
+201830,V00782584,"Legge, Emily E.",HS,BS,BIO,,ENS,,JR,,,,,,,,LH
+201830,V00756678,"Long, Edward A.",HS,BS,CHE,C5,ENS,MAT,SR,,,,,,,,LH
+201830,V00800121,"McGrath, Christina A.",HS,BS,ANT,,BIO,ENS,SR,,,,,,,,HT
+201830,V00648433,"McIntosh, Phillip K.",AR,BA,MUS,,ENS,,SR,,,,,,,,3Q
+201830,V00794413,"Mondragon, Rae L.",HS,BS,CHE,C1,ENS,,JR,,,,,,,,3Q
+201830,V00797000,"Neels, Peter A.",HS,BA,HIS,,ENS,,SR,,,,,,,,HT
+201830,V00769427,"Ortiz Lopez, Ana M.",HS,BA,POS,PSIR,ENS,,JR,,,,,,,,HT
+201830,V00785514,"Peddle, Carolanne N.",WS,BS,UBR,,ENS,,SO,,,,,,,,HT
+201830,V00781332,"Shah, Ria K.",LF,BS,BNF,BG,ENS,,JR,,,,,,,,LH
+201830,V00745350,"Shields, Matilyn C.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,3Q
+201830,V00792852,"Spalding, Reid A.",EG,BS,MCE,,ENS,,JR,,,,,,,,FT
+201830,V00746915,"Weisenborn, Tessa M.",AR,BFA,COM,,ENS,,SR,HS,BA,FRL,FR,,,SR,LH
+201830,V00748701,"Wiggan, Kaylyn R.",AR,BFA,CMS,,ENS,,SR,,,,,,,,3Q
+201830,V00785144,"Wright, Abigail A.",HS,BS,BIO,,ENS,,SO,,,,,,,,HT
+201830,V00750127,"Yannutz, Anne",AR,BA,FDE,FM,ENS,,SR,,,,,,,,HT
+201910,V00791387,"Acland, Rebecca C.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201910,V00745508,"Adkins, Savannah L.",HS,BA,ENG,,ENS,,SR,,,,,,,,FT
+201910,V00729240,"Baxter, Samuel P.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201910,V00747475,"Boon, Shannon M.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201910,V00841085,"Brown, Brittany N.",HS,N/A,LSF,,ENS,,JR,,,,,,,,FT
+201910,V00742202,"Canovas, Isabella C.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201910,V00825780,"Carter, Cali S.",HS,BA,POS,PSIR,ENS,,JR,,,,,,,,FT
+201910,V00804567,"Chenoweth, Nina G.",WS,BS,UBR,,ITS,ENS,SR,,,,,,,,FT
+201910,V00703000,"Chisholm, Samuel",UN,BIS,INS,,ECO,ENS,JR,,,,,,,,FT
+201910,V00792614,"Conklin, Mary M.",AR,BA,CIN,,ENS,,SR,,,,,,,,FT
+201910,V00821386,"Connor, Anna M.",WS,BS,UBR,,ENS,HIS,JR,HS,BA,POS,PSIR,,,JR,FT
+201910,V00796448,"Cooley, Brian N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201910,V00787333,"Dendtler, Allison K.",HS,BA,POS,PSIR,ENS,,JR,,,,,,,,FT
+201910,V00785401,"Gibson, Haley N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201910,V00742794,"Harris, Jasmine A.",AR,BM,MUS,PEST,ENS,,SR,,,,,,,,FT
+201910,V00740651,"Hess, Drew M.",EG,BS,CLE,CLEC,ENS,,SR,,,,,,,,FT
+201910,V00738048,"Holcombe, Katherine",HS,BS,MAC,AGCR,ENS,SOC,SR,,,,,,,,FT
+201910,V00796163,"Kaminski, Grace M.",HS,BS,MAC,AGCR,ENS,,SR,HS,BS,MAC,AGST,,,SR,FT
+201910,V00760085,"Kent, Brenna H.",LF,BS,BNF,BG,ENS,,SR,,,,,,,,FT
+201910,V00753144,"Keoprasert, Timothy N.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201910,V00749811,"Kolb, Jordan",UN,BIS,INS,,POS,ENS,SR,,,,,,,,FT
+201910,V00750465,"Landolt, Alexandra C.",HS,BA,INT,ISJS,ENS,RST,SR,,,,,,,,3Q
+201910,V00670821,"Lavalle, Paula",HS,BS,ANT,,ENS,,SR,,,,,,,,0
+201910,V00782584,"Legge, Emily E.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201910,V00756678,"Long, Edward A.",HS,BS,CHE,C5,ENS,MAT,SR,,,,,,,,FT
+201910,V00825436,"Lumsden-Cook, Adam C.",WS,BS,UBR,,ENS,,FR,,,,,,,,LH
+201910,V00792401,"Mallow, Molly E.",WS,BS,UBR,,HIS,ENS,JR,,,,,,,,FT
+201910,V00800121,"McGrath, Christina A.",HS,BS,ANT,,BIO,ENS,SR,,,,,,,,FT
+201910,V00872326,"Mccoy, Emily",HS,BS,ECO,,ENS,,JR,,,,,,,,FT
+201910,V00751222,"Metzel, Sarah L.",HS,BA,POS,PSPG,FRE,ENS,SR,,,,,,,,FT
+201910,V00794413,"Mondragon, Rae L.",HS,BS,CHE,C1,ENS,,JR,,,,,,,,3Q
+201910,V00690383,"Morrison, Amanda C.",AR,BFA,KII,,ENS,,SR,,,,,,,,FT
+201910,V00236487,"Mullarney, Sarah A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201910,V00823937,"Murray, Sydney I.",HS,BA,INT,ISJS,AAS,ENS,JR,,,,,,,,FT
+201910,V00829411,"Nairn, Taylor M.",WS,BS,UBR,,ENS,,SO,,,,,,,,FT
+201910,V00797000,"Neels, Peter A.",HS,BA,HIS,,ENS,,SR,,,,,,,,FT
+201910,V00806875,"North, Emma M.",HS,BS,MAC,JRPO,ENS,,JR,,,,,,,,FT
+201910,V00724670,"O'Callaghan, Pearse M.",HS,BA,INT,ISJS,ENS,SPA,SR,,,,,,,,FT
+201910,V00769427,"Ortiz Lopez, Ana M.",HS,BA,POS,PSIR,ENS,,SR,,,,,,,,FT
+201910,V00751241,"Osman, Noha A.",WS,BS,UBR,,ENS,,SR,,,,,,,,3Q
+201910,V00744608,"Padgett, Sarah A.",WS,BS,UBR,,ENS,,SR,,,,,,,,HT
+201910,V00785514,"Peddle, Carolanne N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201910,V00747631,"Price, Kerry A.",WS,BS,CRJ,JU,ENS,,SR,,,,,,,,FT
+201910,V00779301,"Pring, Seylar",AR,BFA,IDE,,ENS,,SR,,,,,,,,FT
+201910,V00862592,"Pritchard, Sarah N.",HS,BS,BIO,,ENS,,SO,,,,,,,,FT
+201910,V00800073,"Radden, Chane'l N.",WS,BS,UBR,,ENS,,SR,,,,,,,,HT
+201910,V00769089,"Rivera, Tristan J.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201910,V00817818,"Rowe, Kathryn S.",HS,BA,POS,PSIR,ENS,,JR,,,,,,,,FT
+201910,V00781332,"Shah, Ria K.",LF,BS,BNF,BG,ENS,,SR,,,,,,,,FT
+201910,V00745350,"Shields, Matilyn C.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,HT
+201910,V00792852,"Spalding, Reid A.",EG,BS,MCE,,ENS,,JR,,,,,,,,3Q
+201910,V00812185,"Strother, Jada M.",WS,BS,UBR,NONE,ENS,,FR,,,,,,,,FT
+201910,V00715503,"Sweeney, Sarah S.",HS,BA,POS,PSIR,ECO,ENS,SR,,,,,,,,FT
+201910,V00703462,"Tabacchi, Maria S.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201910,V00458277,"Toenniessen, John R.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201910,V00663789,"Walker, Feve A.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201910,V00746915,"Weisenborn, Tessa M.",AR,BFA,COM,,ENS,,SR,HS,BA,FRL,FR,,,SR,FT
+201910,V00748701,"Wiggan, Kaylyn R.",AR,BFA,CMS,,ENS,,SR,,,,,,,,FT
+201910,V00759643,"Wingfield, Kathryn V.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201910,V00785144,"Wright, Abigail A.",HS,BS,BIO,,ENS,,SO,,,,,,,,FT
+201910,V00750127,"Yannutz, Anne",AR,BA,FDE,FM,ENS,,SR,,,,,,,,FT
+201920,V00791387,"Acland, Rebecca C.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00899376,"Ange, Alexis",HS,BS,BIO,,ENS,,JR,,,,,,,,FT
+201920,V00729240,"Baxter, Samuel P.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00747475,"Boon, Shannon M.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00841085,"Brown, Brittany N.",HS,BIS,LSE,,ENS,,SR,,,,,,,,FT
+201920,V00742202,"Canovas, Isabella C.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201920,V00825780,"Carter, Cali S.",HS,BA,POS,PSIR,ENS,,SR,,,,,,,,FT
+201920,V00832999,"Chaplin, Tessa M.",AR,BA,FDE,FM,ENS,,JR,,,,,,,,FT
+201920,V00703000,"Chisholm, Samuel",UN,BIS,INS,,ECO,ENS,JR,,,,,,,,FT
+201920,V00782201,"Concannon, Brandon C.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00792614,"Conklin, Mary M.",AR,BA,CIN,,ENS,,SR,LF,CERTUG,SUS,,,,SR,FT
+201920,V00821386,"Connor, Anna M.",WS,BS,UBR,,ENS,HIS,SR,HS,BA,POS,PSCP,,,SR,FT
+201920,V00796448,"Cooley, Brian N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201920,V00752856,"Doswell, Amaya D.",HS,N/A,LSF,,ENS,,SR,,,,,,,,FT
+201920,V00787182,"Eaton, Alexander D.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201920,V00829366,"Flamm, Kati A.",WS,BS,CRJ,CI,ENS,,JR,,,,,,,,FT
+201920,V00785401,"Gibson, Haley N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00671267,"Gravatt, Preston R.",HS,BA,POS,PSCV,ENS,,SR,,,,,,,,FT
+201920,V00742794,"Harris, Jasmine A.",AR,BM,MUS,PEST,ENS,,SR,,,,,,,,FT
+201920,V00740651,"Hess, Drew M.",EG,BS,CLE,CLEC,ENS,,SR,,,,,,,,FT
+201920,V00796163,"Kaminski, Grace M.",HS,BS,MAC,AGCR,ENS,,SR,HS,BS,MAC,AGST,,,SR,FT
+201920,V00866124,"Keane, Shawna",HS,BS,CHE,C4,ENS,,JR,,,,,,,,FT
+201920,V00749811,"Kolb, Jordan",UN,BIS,INS,,POS,ENS,SR,,,,,,,,FT
+201920,V00750465,"Landolt, Alexandra C.",HS,BA,INT,ISJS,ENS,RST,SR,,,,,,,,FT
+201920,V00782584,"Legge, Emily E.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201920,V00756678,"Long, Edward A.",HS,BS,CHE,C5,ENS,MAT,SR,,,,,,,,FT
+201920,V00825436,"Lumsden-Cook, Adam C.",WS,BS,UBR,,ENS,,SO,,,,,,,,3Q
+201920,V00792401,"Mallow, Molly E.",WS,BS,UBR,,HIS,ENS,SR,,,,,,,,FT
+201920,V00872326,"Mccoy, Emily",HS,BS,ECO,,ENS,,SR,,,,,,,,FT
+201920,V00820085,"Menge, Abbigail C.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201920,V00751222,"Metzel, Sarah L.",HS,BA,POS,PSIR,FRE,ENS,SR,,,,,,,,FT
+201920,V00801071,"Mohammed, Kayla C.",HS,BA,POS,PSPG,ENS,,SR,,,,,,,,FT
+201920,V00794413,"Mondragon, Rae L.",HS,BS,CHE,C1,ENS,,JR,,,,,,,,3Q
+201920,V00690383,"Morrison, Amanda C.",AR,BFA,KII,,ENS,,SR,,,,,,,,FT
+201920,V00886821,"Mueller, Nicole",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00823937,"Murray, Sydney I.",HS,BA,INT,ISJS,ENS,,SR,,,,,,,,FT
+201920,V00829411,"Nairn, Taylor M.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201920,V00743554,"Newsome, Maya A.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201920,V00806875,"North, Emma M.",HS,BS,MAC,JRPO,ENS,,SR,,,,,,,,FT
+201920,V00769427,"Ortiz Lopez, Ana M.",HS,BA,POS,PSIR,ENS,,SR,,,,,,,,FT
+201920,V00751241,"Osman, Noha A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00785514,"Peddle, Carolanne N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201920,V00779301,"Pring, Seylar",AR,BFA,IDE,,ENS,,SR,,,,,,,,FT
+201920,V00862592,"Pritchard, Sarah N.",WS,BS,UBR,,ENS,,SO,,,,,,,,FT
+201920,V00800073,"Radden, Chane'l N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00821166,"Rasich, Emma C.",AR,BFA,COM,MI,ENS,,JR,,,,,,,,FT
+201920,V00769089,"Rivera, Tristan J.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+201920,V00817818,"Rowe, Kathryn S.",HS,BA,POS,PSIR,ENS,GBU,SR,,,,,,,,FT
+201920,V00785479,"Sager, Charly J.",HS,BS,MAS,OR,ENS,,SR,,,,,,,,FT
+201920,V00781332,"Shah, Ria K.",LF,BS,BNF,BG,ENS,,SR,,,,,,,,FT
+201920,V00792852,"Spalding, Reid A.",EG,BS,MCE,,ENS,,JR,,,,,,,,LH
+201920,V00812185,"Strother, Jada M.",WS,BS,UBR,NONE,ENS,,SO,,,,,,,,FT
+201920,V00703462,"Tabacchi, Maria S.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00823320,"Taylor, Ashlee M.",WS,BS,UBR,,ENS,,SO,,,,,,,,3Q
+201920,V00845658,"Terry, Katelynn N.",HS,BS,FOS,FSBY,ENS,,SO,,,,,,,,FT
+201920,V00818351,"Tiller, Samantha M.",AR,N/A,THF,SDTP,ENS,,JR,,,,,,,,FT
+201920,V00785505,"Varca, Gianna E.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201920,V00886411,"Veatch, Thomas P.",WS,BS,UBR,,ENS,,JR,,,,,,,,3Q
+201920,V00663789,"Walker, Feve A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00746915,"Weisenborn, Tessa M.",AR,BFA,COM,,ENS,,SR,HS,BA,FRL,FR,,,SR,FT
+201920,V00748701,"Wiggan, Kaylyn R.",AR,BFA,CMS,,ENS,,SR,,,,,,,,FT
+201920,V00759643,"Wingfield, Kathryn V.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+201920,V00750127,"Yannutz, Anne",AR,BA,FDE,FM,ENS,,SR,,,,,,,,FT
+201930,V00786229,"Armour, Abriel",EG,BS,CLE,CLEC,ENS,MAT,SR,,,,,,,,0
+201930,V00747475,"Boon, Shannon M.",WS,BS,UBR,,ENS,,SR,,,,,,,,LH
+201930,V00792614,"Conklin, Mary M.",AR,BA,CIN,,ENS,,SR,LF,CERTUG,SUS,,,,SR,FT
+201930,V00821386,"Connor, Anna M.",WS,BS,UBR,,ENS,HIS,SR,HS,BA,POS,PSCP,,,SR,LH
+201930,V00752856,"Doswell, Amaya D.",HS,BIS,LSE,,ENS,,SR,,,,,,,,HT
+201930,V00790015,"Downing, Jenna E.",WS,BS,CRJ,JU,ENS,,JR,,,,,,,,HT
+201930,V00829366,"Flamm, Kati A.",WS,BS,CRJ,CI,ENS,SOC,JR,,,,,,,,LH
+201930,V00749811,"Kolb, Jordan",UN,BIS,INS,,POS,ENS,SR,,,,,,,,LH
+201930,V00750465,"Landolt, Alexandra C.",HS,BA,INT,ISJS,ENS,RST,SR,,,,,,,,LH
+201930,V00670821,"Lavalle, Paula",HS,BS,ANT,,ENS,,SR,,,,,,,,LH
+201930,V00792401,"Mallow, Molly E.",WS,BS,UBR,,HIS,ENS,SR,,,,,,,,HT
+201930,V00879039,"McManus, Christianna M.",BU,N/A,BFO,AC,ENS,,JR,,,,,,,,LH
+201930,V00872326,"Mccoy, Emily",HS,BS,ECO,,ENS,,SR,,,,,,,,LH
+201930,V00886821,"Mueller, Nicole",WS,BS,UBR,,ENS,,SR,,,,,,,,HT
+201930,V00769427,"Ortiz Lopez, Ana M.",HS,BA,POS,PSIR,ENS,,SR,,,,,,,,HT
+201930,V00785514,"Peddle, Carolanne N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+201930,V00779301,"Pring, Seylar",AR,BFA,IDE,,ENS,,SR,,,,,,,,HT
+201930,V00843576,"Quillin, Kelly",HS,BA,POS,PSPA,ENS,,SR,,,,,,,,LH
+201930,V00910438,"Reuling, Rose",WS,BS,UBR,,ENS,,JR,,,,,,,,3Q
+201930,V00769089,"Rivera, Tristan J.",HS,BS,BIO,,ENS,,SR,,,,,,,,HT
+201930,V00792852,"Spalding, Reid A.",LF,BS,BNF,CO,ENS,,JR,,,,,,,,LH
+201930,V00785505,"Varca, Gianna E.",WS,BS,UBR,,ENS,,JR,,,,,,,,LH
+201930,V00789986,"Vega, Michael D.",WS,BS,UBR,,ENS,,JR,,,,,,,,3Q
+201930,V00746915,"Weisenborn, Tessa M.",AR,BFA,COM,,ENS,,SR,HS,BA,FRL,FR,,,SR,LH
+201930,V00748701,"Wiggan, Kaylyn R.",AR,BFA,CMS,,ENS,,SR,,,,,,,,LH
+202020,V00899376,"Ange, Alexis",UN,BIS,INS,,ENS,NMA,JR,,,,,,,,FT
+202020,V00786229,"Armour, Abriel",EG,BS,CLE,CLEC,ENS,MAT,SR,,,,,,,,FT
+202020,V00872367,"Armstrong, William R.",WS,BS,CRJ,JU,ENS,,SO,,,,,,,,FT
+202020,V00861307,"Awadalla, Ahmed F.",HS,BS,BIO,,ENS,,SO,,,,,,,,FT
+202020,V00648114,"Barua, Rimu",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202020,V00729240,"Baxter, Samuel P.",WS,BS,UBR,,ENS,,SR,LF,CERTUG,SUS,,,,SR,FT
+202020,V00842441,"Boyce, Tyrone J.",WS,BS,UBR,,POS,ENS,JR,,,,,,,,FT
+202020,V00914826,"Bradley, Amanda M.",AH,BS,CRS,DM,ENS,,SO,,,,,,,,FT
+202020,V00826000,"Branch, Patrice J.",WS,BA,HSP,,UBR,ENS,SR,HS,BA,POS,PSPG,,,SR,FT
+202020,V00841085,"Brown, Brittany N.",HS,BIS,LSE,,ENS,,SR,,,,,,,,FT
+202020,V00742202,"Canovas, Isabella C.",UN,BIS,INS,,ENS,UBR,SR,,,,,,,,FT
+202020,V00825780,"Carter, Cali S.",AR,N/A,AFO,,ENS,,SR,,,,,,,,FT
+202020,V00804567,"Chenoweth, Nina G.",WS,BS,UBR,,ITS,ENS,SR,,,,,,,,3Q
+202020,V00703000,"Chisholm, Samuel",UN,BIS,INS,,ECO,ENS,SR,,,,,,,,FT
+202020,V00790316,"Coles, Romily R.",HS,BS,ANT,,ENS,,JR,,,,,,,,FT
+202020,V00821386,"Connor, Anna M.",WS,BS,UBR,,ENS,HIS,SR,HS,BA,POS,PSCP,,,SR,FT
+202020,V00796448,"Cooley, Brian N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202020,V00775705,"Derflinger, Heather M.",HS,BS,MAC,PB,ENS,,SR,,,,,,,,HT
+202020,V00752856,"Doswell, Amaya D.",HS,BIS,LSE,,ENS,,SR,,,,,,,,FT
+202020,V00790015,"Downing, Jenna E.",WS,BS,CRJ,JU,ENS,,JR,,,,,,,,FT
+202020,V00888371,"Fanning, Gillian E.",LF,BS,BNF,BG,ENS,,JR,,,,,,,,FT
+202020,V00826309,"Fitzgerald, Gillian S.",UN,BIS,INS,,ENS,,JR,,,,,,,,FT
+202020,V00829366,"Flamm, Kati A.",WS,BS,CRJ,CI,ENS,SOC,JR,,,,,,,,FT
+202020,V00822870,"Fleetwood, Megan R.",BU,N/A,BFO,MG,SPA,ENS,JR,,,,,,,,FT
+202020,V00789823,"Frantz, Elias C.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00785401,"Gibson, Haley N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202020,V00911098,"Grant, Estrella L.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00671267,"Gravatt, Preston R.",HS,BA,POS,PSCV,ENS,,SR,,,,,,,,FT
+202020,V00850569,"Gutierrez, Milena M.",AR,N/A,THF,PE,ENG,ENS,SO,,,,,,,,FT
+202020,V00906465,"Hamilton, Khristen A.",HS,BA,POS,PSCV,ENS,,FR,,,,,,,,FT
+202020,V00923633,"Hanna, Miriam R.",HS,BS,CHE,C1,ENS,,JR,,,,,,,,FT
+202020,V00740651,"Hess, Drew M.",EG,BS,CLE,CLEC,ENS,,SR,,,,,,,,FT
+202020,V00838211,"Jooris, Delaney S.",HS,BA,GSW,,ENS,SOC,SO,,,,,,,,FT
+202020,V00670821,"Lavalle, Paula",HS,BS,ANT,,ENS,,SR,,,,,,,,HT
+202020,V00832574,"Lozano, Leslie S.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00790840,"Malone, Madelyn J.",HS,BS,SCI,BY,ENS,,SR,,,,,,,,FT
+202020,V00879039,"McManus, Christianna M.",BU,BS,ACC,,ENS,,JR,,,,,,,,FT
+202020,V00872326,"Mccoy, Emily",HS,BS,ECO,,ENS,,SR,,,,,,,,FT
+202020,V00820085,"Menge, Abbigail C.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+202020,V00750543,"Michalowski, Ellie A.",HS,BS,PSY,,PSY,ENS,JR,,,,,,,,FT
+202020,V00794413,"Mondragon, Rae L.",HS,BS,FOS,PHEV,ENS,,SR,,,,,,,,3Q
+202020,V00866150,"Morrison, Mia N.",HS,BS,ANT,,ENS,,SO,,,,,,,,FT
+202020,V00886821,"Mueller, Nicole",WS,BS,UBR,,ENS,,SR,,,,,,,,3Q
+202020,V00863158,"Murray, Erin M.",AR,BA,CIN,,ENS,FRE,JR,,,,,,,,FT
+202020,V00823937,"Murray, Sydney I.",HS,BA,INT,ISJS,ENS,,SR,,,,,,,,FT
+202020,V00829411,"Nairn, Taylor M.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00903285,"Neve, Moira L.",AR,N/A,AFO,,ENS,,JR,,,,,,,,FT
+202020,V00743554,"Newsome, Maya A.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+202020,V00923901,"Nicklas, Natalie A.",HS,BS,PSY,,ENS,,JR,,,,,,,,FT
+202020,V00806875,"North, Emma M.",HS,BS,MAC,JRPO,ENS,,SR,,,,,,,,FT
+202020,V00828178,"Oblon, Nathan A.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00810922,"Ofano, Jenna K.",HS,BS,ANT,,ENS,,JR,,,,,,,,FT
+202020,V00794862,"Orenduff, Jenalee B.",HS,BS,MAC,PB,ENS,,SR,LF,CERTUG,SUS,,,,SR,FT
+202020,V00775576,"Paiva, Audrey A.",AR,BFA,IDE,,ENS,,SR,,,,,,,,FT
+202020,V00785514,"Peddle, Carolanne N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00779301,"Pring, Seylar",AR,BFA,IDE,,ENS,,SR,,,,,,,,3Q
+202020,V00862592,"Pritchard, Sarah N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00843576,"Quillin, Kelly",HS,BA,POS,PSPA,ENS,,SR,,,,,,,,FT
+202020,V00787180,"Ramos, Gabriella A.",HS,BS,BIO,,CHE,ENS,SR,,,,,,,,FT
+202020,V00821166,"Rasich, Emma C.",AR,BFA,COM,MI,ENS,,SR,,,,,,,,FT
+202020,V00910438,"Reuling, Rose",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00769089,"Rivera, Tristan J.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+202020,V00898199,"Roberts, Gemma M.",AR,N/A,AFO,,ENS,,SO,,,,,,,,FT
+202020,V00817818,"Rowe, Kathryn S.",HS,BA,POS,PTMY,ENS,GBU,SR,,,,,,,,FT
+202020,V00695396,"Rudolph, Max M.",HS,BS,MAC,JRBC,ENS,,SR,,,,,,,,FT
+202020,V00785479,"Sager, Charly J.",HS,BS,MAS,OR,ENS,,SR,,,,,,,,FT
+202020,V00823093,"Spagnolo, Marissa J.",WS,BS,CRJ,CI,HSP,ENS,SR,,,,,,,,FT
+202020,V00866887,"Stewart, Molly",AR,BA,CIN,,SOC,ENS,JR,,,,,,,,FT
+202020,V00823320,"Taylor, Ashlee M.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00664946,"Tesfaye, Thewodros",HS,BS,SCI,CY,MAT,ENS,SR,,,,,,,,FT
+202020,V00818351,"Tiller, Samantha M.",AR,BA,THE,,ENS,GSW,SR,,,,,,,,FT
+202020,V00859264,"Trump, Shaianna L.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00736807,"Usher, Lauren N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202020,V00785505,"Varca, Gianna E.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00789986,"Vega, Michael D.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202020,V00807947,"Vogel, Nathaniel S.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202020,V00663789,"Walker, Feve A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00899376,"Ange, Alexis",UN,BIS,INS,,ENS,NMA,JR,,,,,,,,FT
+202010,V00786229,"Armour, Abriel",EG,BS,CLE,CLEC,ENS,MAT,SR,,,,,,,,FT
+202010,V00872367,"Armstrong, William R.",WS,BS,CRJ,JU,ENS,,SO,,,,,,,,FT
+202010,V00648114,"Barua, Rimu",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00729240,"Baxter, Samuel P.",WS,BS,UBR,,ENS,,SR,LF,CERTUG,SUS,,,,SR,FT
+202010,V00914826,"Bradley, Amanda M.",AH,BS,CRS,DM,ENS,,SO,,,,,,,,FT
+202010,V00841085,"Brown, Brittany N.",HS,BIS,LSE,,ENS,,SR,,,,,,,,FT
+202010,V00742202,"Canovas, Isabella C.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00825780,"Carter, Cali S.",AR,N/A,AFO,,ENS,,SR,,,,,,,,FT
+202010,V00832999,"Chaplin, Tessa M.",AR,BA,FDE,FM,ENS,,JR,LF,CERTUG,SUS,,,,JR,FT
+202010,V00703000,"Chisholm, Samuel",UN,BIS,INS,,ECO,ENS,SR,,,,,,,,3Q
+202010,V00790316,"Coles, Romily R.",HS,BS,ANT,,ENS,,JR,,,,,,,,FT
+202010,V00782201,"Concannon, Brandon C.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00821386,"Connor, Anna M.",WS,BS,UBR,,ENS,HIS,SR,HS,BA,POS,PSCP,,,SR,FT
+202010,V00796448,"Cooley, Brian N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00752856,"Doswell, Amaya D.",HS,BIS,LSE,,ENS,,SR,,,,,,,,FT
+202010,V00790015,"Downing, Jenna E.",WS,BS,CRJ,JU,ENS,,JR,,,,,,,,FT
+202010,V00826309,"Fitzgerald, Gillian S.",HS,BA,ENG,,ENS,,JR,,,,,,,,3Q
+202010,V00829366,"Flamm, Kati A.",WS,BS,CRJ,CI,ENS,SOC,JR,,,,,,,,FT
+202010,V00785401,"Gibson, Haley N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00671267,"Gravatt, Preston R.",HS,BA,POS,PSCV,ENS,,SR,,,,,,,,FT
+202010,V00923633,"Hanna, Miriam R.",HS,BS,CHE,C1,ENS,,JR,,,,,,,,FT
+202010,V00740651,"Hess, Drew M.",EG,BS,CLE,CLEC,ENS,,SR,,,,,,,,FT
+202010,V00838211,"Jooris, Delaney S.",HS,BA,GSW,,ENS,SOC,SO,,,,,,,,3Q
+202010,V00796163,"Kaminski, Grace M.",HS,BS,MAC,AGCR,ENS,,SR,HS,BS,MAC,AGST,,,SR,FT
+202010,V00749811,"Kolb, Jordan",UN,BIS,INS,,POS,ENS,SR,,,,,,,,FT
+202010,V00816611,"Latessa, Dalton L.",HS,BA,POS,PSPG,ENS,,SR,WS,BA,HSP,,,,SR,FT
+202010,V00782584,"Legge, Emily E.",HS,BS,BIO,,ENS,CHE,SR,,,,,,,,FT
+202010,V00832574,"Lozano, Leslie S.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202010,V00792401,"Mallow, Molly E.",WS,BS,UBR,,HIS,ENS,SR,,,,,,,,FT
+202010,V00790840,"Malone, Madelyn J.",HS,BS,SCI,BY,ENS,,SR,,,,,,,,3Q
+202010,V00879039,"McManus, Christianna M.",BU,N/A,BFO,AC,ENS,,JR,,,,,,,,FT
+202010,V00872326,"Mccoy, Emily",HS,BS,ECO,,ENS,,SR,,,,,,,,FT
+202010,V00820085,"Menge, Abbigail C.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+202010,V00794413,"Mondragon, Rae L.",HS,BS,FOS,PHEV,ENS,,SR,,,,,,,,3Q
+202010,V00886821,"Mueller, Nicole",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00823937,"Murray, Sydney I.",HS,BA,INT,ISJS,ENS,,SR,,,,,,,,FT
+202010,V00829411,"Nairn, Taylor M.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202010,V00903285,"Neve, Moira L.",AR,N/A,AFO,,ENS,,JR,,,,,,,,FT
+202010,V00743554,"Newsome, Maya A.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+202010,V00806875,"North, Emma M.",HS,BS,MAC,JRPO,ENS,,SR,,,,,,,,FT
+202010,V00810922,"Ofano, Jenna K.",HS,BS,ANT,,ENS,,JR,,,,,,,,FT
+202010,V00785514,"Peddle, Carolanne N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202010,V00792015,"Pollard, Chloe A.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00779301,"Pring, Seylar",AR,BFA,IDE,,ENS,,SR,,,,,,,,FT
+202010,V00862592,"Pritchard, Sarah N.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202010,V00843576,"Quillin, Kelly",HS,BA,POS,PSPA,ENS,,SR,,,,,,,,FT
+202010,V00821166,"Rasich, Emma C.",AR,BFA,COM,MI,ENS,,SR,,,,,,,,FT
+202010,V00910438,"Reuling, Rose",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202010,V00769089,"Rivera, Tristan J.",HS,BS,BIO,,ENS,,SR,,,,,,,,FT
+202010,V00817818,"Rowe, Kathryn S.",HS,BA,POS,PSIR,ENS,GBU,SR,,,,,,,,FT
+202010,V00785479,"Sager, Charly J.",HS,BS,MAS,OR,ENS,,SR,,,,,,,,FT
+202010,V00781332,"Shah, Ria K.",LF,BS,BNF,BG,ENS,CHE,SR,,,,,,,,FT
+202010,V00703462,"Tabacchi, Maria S.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00823320,"Taylor, Ashlee M.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202010,V00845658,"Terry, Katelynn N.",HS,BS,BIO,,ENS,,JR,,,,,,,,FT
+202010,V00664946,"Tesfaye, Thewodros",HS,BS,SCI,CY,MAT,ENS,SR,,,,,,,,FT
+202010,V00736807,"Usher, Lauren N.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00785505,"Varca, Gianna E.",WS,BS,UBR,,ENS,,JR,,,,,,,,HT
+202010,V00886411,"Veatch, Thomas P.",HS,BA,HIS,,ENS,,JR,,,,,,,,FT
+202010,V00789986,"Vega, Michael D.",WS,BS,UBR,,ENS,,SR,,,,,,,,FT
+202010,V00807947,"Vogel, Nathaniel S.",WS,BS,UBR,,ENS,,JR,,,,,,,,FT
+202010,V00746915,"Weisenborn, Tessa M.",AR,BFA,COM,,ENS,,SR,,,,,,,,HT
+202010,V00785144,"Wright, Abigail A.",HS,BS,BIO,,ENS,,JR,,,,,,,,FT
