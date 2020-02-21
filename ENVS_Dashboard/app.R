@@ -20,11 +20,14 @@ source("componentSCH.R")
 source("componentSeats.R")
 source("componentRevenue.R")
 source("componentClasses.R")
-
+source("componentREAL.R")
+source("componentREALIndividual.R")
 source("componentFaculty.R")
 source("componentTeaching.R")
 
 data <- pull_data()
+load("REALdf.rda")
+#curriculum <- load("curriculum.rda")
 faculty <- get_faculty()
 
 ui <- dashboardPage(
@@ -44,6 +47,10 @@ ui <- dashboardPage(
                      seatMenuItem,
                      schMenuItem,
                      revenueMenuItem
+                     ),
+            menuItem("Students", icon=icon("user-astronaut"),
+                     realIndMenuItem,
+                     realMenuItem 
                      ),
             menuItem("Faculty", icon=icon("user"),
                      facultyMenuItem,
@@ -69,6 +76,8 @@ ui <- dashboardPage(
             seatsBodyItem(data),
             schBodyItem(data),
             revenueBodyItem(data),
+            realBodyItem(data),
+            realIndBodyItem(data),
             facultyBodyItem(data,faculty),
             teachingBodyItem(data,faculty)
         )
@@ -84,6 +93,9 @@ server <- function(input, output) {
     output$seats <- getSeatOutput(input, data)
     output$sch <- getSCHOutput( input, data )
     output$revenue <- getRevenueOutput( input, data )
+    
+    output$realTable <- getREALOutput(input,data, REAL.df)
+    output$realIndPlot <- getREALIndOutput(input, data, REAL.df)
     
     output$facultySummaryTable <- getFacultyTableOutput( input, data, faculty )
     output$teachingLoadPlot <- getTeachingLoadPlotOutput( input, data, faculty)

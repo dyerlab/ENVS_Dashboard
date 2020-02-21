@@ -115,10 +115,9 @@ getSeatOutput <- function( input, data ) {
     data %>%
       filter( Year >= yr_range[1], Year <= yr_range[2] ) %>%
       group_by( Year ) %>%
-      summarize( Seats = sum(Seats)) -> df
-
+      summarize( Seats = sum(Seats), Status=unique(Status)) -> df
     
-    ggplot(df, aes(Year, Seats) ) + 
+    ggplot(df, aes(Year, Seats, fill=Status) ) + 
       geom_bar(stat="identity") + 
       ylab("Seats Available") + 
       xlab("Period") + 
@@ -129,4 +128,7 @@ getSeatOutput <- function( input, data ) {
     
   }
   )
-}    
+}
+
+
+
