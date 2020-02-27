@@ -13,6 +13,7 @@ realIndMenuItem <- menuItem( "REAL Individual",
 # The UI
 realIndBodyItem <- function( data ) {
   ret <- tabItem( tabName = "realInd",
+                  
                   fluidRow(
                     
                     column(
@@ -28,26 +29,33 @@ realIndBodyItem <- function( data ) {
                                 icon=icon("chart-line"), color="yellow"),
                       
                       valueBox( 75.4, 
-                                "Fraction of Students with REAL Experience",
+                                "Fraction of Students with REAL Experience Across All Classes",
                                 icon=icon("chart-line"), color="yellow" ),
                       
+                  
                       box( 
-                        title="Environmental Studies Undergraduate REAL Credit Loads",
+                        title="REAL Categorization",
                         width=12,
                         solidHeader=TRUE,
-                        status="primary",
-                        
+                        status="info",
                         column(
-                          width=3,
+                          width=6,
                           selectInput("categoryREALInd",
                                       "REAL Categorization",
                                       c("REAL Credit Depth",
                                         "REAL Designation")
                           )
-                        ),
-                        
+                        )
+                      ), 
+                      
+                      box( 
+                        title="Environmental Studies Undergraduate REAL Credit Loads",
+                        status="primary",
+                        width=12,
+                        solidHeader = TRUE,
                         plotOutput("realIndPlot")
                       )
+                      
                     )
                   )
   )
@@ -68,11 +76,13 @@ getREALIndOutput <- function( input, data, REAL.df ) {
         group_by(VNumber, REAL.Level) %>%
         summarize( REAL_CREDITS = sum( Credits)) %>%
         filter( REAL.Level != "Class not REAL designated") %>%
-        ggplot( aes(REAL_CREDITS) ) + 
-        geom_histogram(binwidth = 1) +
-        facet_grid( REAL.Level ~ . , scales="free_y" ) + 
+        ggplot( aes(REAL_CREDITS, fill = REAL.Level) ) + 
+        geom_density(binwidth = 1, alpha=0.6 ) +
         xlab("Credits within REAL designated courses") +
-        ylab("Frequencie of student credit load")
+        ylab("Frequencie of student credit load") + 
+        theme_bw( base_size = 20 ) + 
+        scale_fill_brewer(palette = "Set1")
+      
     } else {
       REAL.df %>%
         group_by(VNumber) %>% 
@@ -86,11 +96,12 @@ getREALIndOutput <- function( input, data, REAL.df ) {
                                    credits$Graduating_Credits - credits$ENVS_Credits
                        ) )
       
-      ggplot( d, aes(Credits) ) + 
-        geom_histogram( binwidth=5 ) + 
-        facet_grid( Category ~ .) + 
+      ggplot( d, aes(Credits, fill=Category) ) + 
+        geom_histogram( binwidth=5 , position='dodge2') + 
         xlab("Student Credit Hours") + 
-        ylab("Frequency in Graduating Cohort")
+        ylab("Frequency in Graduating Cohort") + 
+        theme_bw( base_size = 20 ) + 
+        scale_fill_brewer(palette = "Set1")
       
     }
     
