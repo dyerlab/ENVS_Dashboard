@@ -16,19 +16,26 @@ library(shinythemes)
 library(shinyWidgets)
 library(shinydashboard)
 
+source("pullData.R")
+
 source("componentSCH.R")
 source("componentSeats.R")
 source("componentRevenue.R")
 source("componentClasses.R")
+source("componentFees.R")
 source("componentREAL.R")
 source("componentREALIndividual.R")
 source("componentFaculty.R")
 source("componentTeaching.R")
+source("componentTeachingEvals.R")
+source("componentFees.R")
 
 data <- pull_data()
 load("REALdf.rda")
 #curriculum <- load("curriculum.rda")
 faculty <- get_faculty()
+reviews <- get_reviews()
+feeData <- get_fee_data()
 
 ui <- dashboardPage(
     
@@ -46,7 +53,8 @@ ui <- dashboardPage(
                      classesMenuItem,
                      seatMenuItem,
                      schMenuItem,
-                     revenueMenuItem
+                     revenueMenuItem,
+                     feesMenuItem
                      ),
             menuItem("Students", icon=icon("user-astronaut"),
                      realIndMenuItem,
@@ -54,7 +62,8 @@ ui <- dashboardPage(
                      ),
             menuItem("Faculty", icon=icon("user"),
                      facultyMenuItem,
-                     teachingMenuItem
+                     teachingMenuItem,
+                     evalsMenuItem
                      )
         )
     ),
@@ -76,10 +85,12 @@ ui <- dashboardPage(
             seatsBodyItem(data),
             schBodyItem(data),
             revenueBodyItem(data),
+            feesBodyItem( feeData ),
             realBodyItem(data),
             realIndBodyItem(data),
             facultyBodyItem(data,faculty),
-            teachingBodyItem(data,faculty)
+            teachingBodyItem(data,faculty),
+            evalsBodyItem(reviews, faculty)
         )
     )
 )
@@ -93,12 +104,14 @@ server <- function(input, output) {
     output$seats <- getSeatOutput(input, data)
     output$sch <- getSCHOutput( input, data )
     output$revenue <- getRevenueOutput( input, data )
+    output$feesTable <- getFeesOutput( input, feeData)
     
     output$realTable <- getREALOutput(input,data, REAL.df)
     output$realIndPlot <- getREALIndOutput(input, data, REAL.df)
     
     output$facultySummaryTable <- getFacultyTableOutput( input, data, faculty )
     output$teachingLoadPlot <- getTeachingLoadPlotOutput( input, data, faculty)
+    output$evalsPlot <- getEvalsPlotOutput(input, reviews, faculty )
 }
 
 # Run the application 

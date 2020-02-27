@@ -111,10 +111,27 @@ get_faculty <- function( ) {
 
 
 
+get_reviews <- function() {
+  evals <- NULL
+  load("evals2019.rda")
+  return( evals )
+}
 
 
 
-
+get_fee_data <- function () {
+  pull_data() %>%
+    filter( Term %in% c("202010","202020") ,
+            Course %in% c( "ENVS201","ENVZ335","ENVS101","ENVS102","ENVS260",
+                           "ENVS360","ENVS361","ENVS461","ENVZ595" ) ) %>%
+    group_by( Term, Course ) %>%
+    summarize( Enrollment = sum( Enrollment ) )  %>%
+    mutate( Fees = ifelse( Course %in% c("ENVS201","ENVZ335"), 
+                           Enrollment * 65, 
+                           Enrollment * 50) )  -> feeData
+  
+  return( feeData )
+}
 
 
 

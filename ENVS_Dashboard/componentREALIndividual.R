@@ -61,7 +61,6 @@ realIndBodyItem <- function( data ) {
 
 getREALIndOutput <- function( input, data, REAL.df ) {
   
-  print(summary(REAL.df))
   ret <- renderPlot({
     
     if( input$categoryREALInd == "REAL Designation") {
