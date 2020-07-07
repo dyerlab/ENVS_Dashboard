@@ -2,7 +2,7 @@ library(dplyr)
 
 pull_data <- function( hideSpecialTopics=TRUE ) {
   
-  data <- read.csv("RawEnrollmentData.csv")
+  #data <- read.csv("RawEnrollmentData.csv")
   data <- read.csv("RawEnrollmentData_202020.csv")
   #data <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS-3wFAaGu0NpcB87o6LXvVAN85_6cPzyCPb_w-DqDu8l3rbvg7BISlIqo3fL8CRaSkWKe8IJvcLiKQ/pub?gid=0&single=true&output=csv",
   #                 header=TRUE, skipNul = TRUE, stringsAsFactors = FALSE)
@@ -26,6 +26,12 @@ pull_data <- function( hideSpecialTopics=TRUE ) {
             MAX.SIZE, ACTUAL.ENROLLMENT, SCH, TUITION, PRIMARY.INSTRUCTOR.LAST.NAME, SECONDARY.INSTRUCTOR.LAST.NAME )  %>%
     mutate( Revenue = SCH * TUITION) %>% 
     filter( ACTUAL.ENROLLMENT > 0, TITLE != "CANCELLED") ->  data
+  
+  
+
+  
+  
+  
   
   
   names(data) <- c("Term","Year", "Semester", "Level", 
@@ -58,11 +64,31 @@ pull_data <- function( hideSpecialTopics=TRUE ) {
   data$Instructor2 <- as.character( data$Instructor2 )
   data$Instructor2[ nchar(data$Instructor2) == 0] <- NA
 
+  
+  # add faculty types
+  data$FacultyType <- "Other"
+  data$FacultyType[ data$Instructor %in% c("Agosta", "Bukaveckas", "Dyer", "Fernandez", "Jones", 
+                                           "McGarvey", "Vonesh") ] <- "Tenure Track"
+  
+  data$FacultyType[ data$Instructor %in% c("Albrecht-Mallinger", "Bulluck", "Ciminelli", "Connors", 
+                                           "McIninch", "Sikder", "Viverette") ] <- "Term"
+  data$FacultyType[ data$Instructor %in% c("Crawford", "Parent", "Shuart") ] <- "Affiliate"
+  data$FacultyType[ data$Instructor %in% c("Bernier", "Blankenship", "Fox", "Godfrey", "Kelly", 
+                                           "Oden", "Watson", "Prevost-White", "Robertson", "Toibin", 
+                                           "Wood", "Valdez") ] <- "Adjunct"
+  
+  data$FacultyType <- factor( data$FacultyType, 
+                              ordered=TRUE,
+                              levels = c("Tenure Track", "Term", "Adjunct","Affiliate","Other") )
+  
+  
+  
+  
   # Make a unique identifier to remove duplicates
   #data$ID <- paste( data$Term,data$CRN,data$Course,data$Section,data$Instructor, data$Title, sep=".")
     
+  # fix part where two people are instructors so each gets half credit for SCH
   ret <- data[ is.na(data$Instructor2),]
-  
   dup <- data[ !is.na(data$Instructor2),]
   dup$Enrollment <- dup$Enrollment / 2.0 
   dup2 <- dup

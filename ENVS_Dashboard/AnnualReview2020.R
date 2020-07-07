@@ -8,6 +8,34 @@ source("pullData.R")
 data <- pull_data()
 
 
+
+# Faculty in last 3 years
+data %>%
+  filter( Year >= 2017 ) %>%
+  group_by( Instructor ) %>%
+  summarize( numClasses = length(Course) )
+
+
+
+# Enrollment per semester over last 3 years
+data %>%
+  filter( Year >= 2017 ) %>%
+  filter( Semester %in% c("Fall","Spring") ) %>%
+  group_by( Course ) %>%
+  summarize( Seats = mean( Enrollment, na.rm=T) ) -> tmp
+View(tmp)
+
+
+# Grab enrollment for students in Fall 2019 and Spring 2020
+
+data %>%
+  filter( Course %in% c( "ENVS201","ENVS260",
+                         "ENVS360","ENVS361","ENVS461", "ENVZ595",
+                         "ENVZ335") ) %>%
+  group_by( Year ) %>%
+  summarize( Total = sum(Enrollment))
+
+
 data %>%
   filter( Year < 2020, Year > 2011) %>%
   group_by( Year ) %>%
