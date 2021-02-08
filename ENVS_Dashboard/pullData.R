@@ -118,14 +118,14 @@ trendCoefficient <- function( data, response ) {
 
 
 get_faculty <- function( ) {
-  facultyTT <- c("Agosta","Bukaveckas","Dyer","Fernandez","McGarvey","Vonesh" )
-  facultyTerm <- c( "Albrecht-Mallinger","Bulluck","Ciminelli","Connors","Crawford","McIninch","Shuart","Sikder","Viverette")
-  facultyAdjunct <- c("Bernier","Blankenship","Ford","Fox","Kelly","Oden","Parent","Watson")
+  facultyTT <- c( "Agosta", "Bukaveckas", "Dyer", "Fernandez", "McGarvey", "Vonesh", "Jones" )
+  facultyTerm <- c( "Albrecht-Mallinger", "Bulluck", "Ciminelli", "Connors", "Crawford", "McIninch", "Shuart", "Sikder", "Viverette")
+  facultyAdjunct <- c("Bernier", "Blankenship", "Ford", "Fox", "Kelly", "Oden", "Parent", "Watson")
   faculty <- data.frame( Name = c(facultyTT, facultyTerm, facultyAdjunct),
                          Category = c( rep("Tenure Track", length(facultyTT)),
                                        rep("Term", length(facultyTerm)),
                                        rep("Adjunct",length(facultyAdjunct))),
-                         Effort = c(40,40,10,40,40,20,
+                         Effort = c(40,40,10,40,40,20,40,
                                     80,25,40,80,25,40,25,80,30,
                                     100,100,100,100,100,100,100,100)
                          

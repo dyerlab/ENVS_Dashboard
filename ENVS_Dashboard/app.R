@@ -22,12 +22,14 @@ source("componentSCH.R")
 source("componentSeats.R")
 source("componentRevenue.R")
 source("componentClasses.R")
+source("componentCalendar.R")
 source("componentFees.R")
 source("componentREAL.R")
 source("componentREALIndividual.R")
 source("componentFaculty.R")
 source("componentTeaching.R")
 source("componentTeachingEvals.R")
+source("componentLoad.R")
 source("componentFees.R")
 
 data <- pull_data()
@@ -51,6 +53,7 @@ ui <- dashboardPage(
             
             menuItem("Classes", icon=icon("school"),
                      classesMenuItem,
+                     calendarMenuItem,
                      seatMenuItem,
                      schMenuItem,
                      revenueMenuItem,
@@ -63,6 +66,7 @@ ui <- dashboardPage(
             menuItem("Faculty", icon=icon("user"),
                      facultyMenuItem,
                      teachingMenuItem,
+                     loadMenuItem,
                      evalsMenuItem
                      )
         )
@@ -82,6 +86,7 @@ ui <- dashboardPage(
                      )
             ),
             classesBodyItem(data,faculty),
+            calendarBodyItem(data),
             seatsBodyItem(data),
             schBodyItem(data),
             revenueBodyItem(data),
@@ -90,6 +95,7 @@ ui <- dashboardPage(
             realIndBodyItem(data),
             facultyBodyItem(data,faculty),
             teachingBodyItem(data,faculty),
+            loadBodyItem( faculty ),
             evalsBodyItem(reviews, faculty)
         )
     )
@@ -101,6 +107,7 @@ ui <- dashboardPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
     output$classTable <- getClassOutput( input, data )
+    output$calendarTable <- getCalendarOutput(input)
     output$seats <- getSeatOutput(input, data)
     output$sch <- getSCHOutput( input, data )
     output$revenue <- getRevenueOutput( input, data )
@@ -111,6 +118,7 @@ server <- function(input, output) {
     
     output$facultySummaryTable <- getFacultyTableOutput( input, data, faculty )
     output$teachingLoadPlot <- getTeachingLoadPlotOutput( input, data, faculty)
+    output$facultyLoadTable <- getFacultyTableOutput(input, data, faculty )
     output$evalsPlot <- getEvalsPlotOutput(input, reviews, faculty )
 }
 
