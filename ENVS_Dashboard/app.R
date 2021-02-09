@@ -32,6 +32,8 @@ source("componentTeachingEvals.R")
 source("componentLoad.R")
 source("componentFees.R")
 
+options(dplyr.summarise.inform=FALSE)
+
 data <- pull_data()
 load("REALdf.rda")
 #curriculum <- load("curriculum.rda")

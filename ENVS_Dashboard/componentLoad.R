@@ -2,7 +2,7 @@ library( tidyverse )
 
 
 
-loadMenuItem <- menuItem("Load",
+loadMenuItem <- menuItem("Teaching History",
                          tabName = "load",
                          icon = icon("balance-scale") )
 
@@ -42,7 +42,8 @@ loadBodyItem <- function( faculty ) {
                           selectInput("facultyLoadGrouping",
                                       "Grouping:",
                                       c("Annual",
-                                        "Semester"))
+                                        "Semester",
+                                        "Semester & Class"))
                         )
                       ),
                       
@@ -69,16 +70,22 @@ getFacultyTableOutput <- function( input, data, faculty ) {
     
     if ( input$facultyLoadGrouping == "Semester"  ) {
       tmp %>%
-        mutate( Grouping = Term ) -> tmp
+        group_by( Term ) %>%
+        summarize( SCH=sum(SCH) ) %>%
+        arrange( desc( Term )  ) -> tmp
+    } else if ( input$facultyLoadGrouping == "Annual" ) {
+      tmp %>% 
+        group_by( Year ) %>%
+        summarize( SCH=sum(SCH) ) %>%
+        arrange( desc( Year )  )  -> tmp
     } else {
       tmp %>% 
-        mutate( Grouping = Year ) -> tmp
+        group_by( Year, Term, Course  ) %>%
+        summarize( SCH=sum(SCH) ) %>%
+        arrange( desc( Year ), desc( Term )  )  -> tmp
     }
     
-    tmp %>%
-      group_by( Grouping ) %>%
-      summarize( SCH=sum(SCH) ) %>%
-      arrange( desc( Grouping )  ) %>%
+    tmp   %>%
       datatable( width="100%")
   })
   return( ret )
